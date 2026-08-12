@@ -55,9 +55,12 @@
 - **Context**: Designed, engineered, and deployed a full-stack Management Information System hosted live at `http://168.144.28.192/`.
 - **Stack & Features**: Node.js, Socket.IO, PDF.js parser, Agile Kanban task board, multi-analyst roster hub, and real-time notification engine.
 
-### 3. Pulses Commodity Intelligence & Reports
-- **Coverage**: 6 core pulse commodities — **Chana (Bengal Gram), Tur (Pigeon Pea), Urad (Black Matpe), Moong (Green Gram), Masur (Lentil), and Yellow/Green Pea**.
-- **Outputs**: Pulses Daily Digest, Pulses Weekly Update, domestic mandi spot tracking, international CNF/FOB trade monitoring, Kharif/Rabi sowing progress, weather analysis, and government procurement (MSP/stock balance sheets).
+### agAlabs Role Description:
+- **Pulses Analysis & Intelligence**: Conducted comprehensive analysis of pulse commodities in both Indian and international markets, generating insightful reports and market intelligence.
+- **Market Updates & Trends**: Authored commodity market updates, digests, and news articles on pulses, enhancing market awareness of industry trends and price drivers.
+- **Data-Driven Decision Making**: Leveraged expertise in Excel data modeling, quantitative price analytics, and agricultural research to support decision-making.
+- **Data Management Refinement**: Collaborated on data management optimization and pipeline refinement to structure raw market data feeds into standardized database frameworks.
+- **SQL Integration**: Utilized SQL database querying alongside Excel VBA, Power BI, Power Query, Python, and R.
 
 ---
 
