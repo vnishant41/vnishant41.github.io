@@ -60,7 +60,7 @@
 - **Market Updates & Trends**: Authored commodity market updates, digests, and news articles on pulses, enhancing market awareness of industry trends and price drivers.
 - **Data-Driven Decision Making**: Leveraged expertise in Excel data modeling, quantitative price analytics, and agricultural research to support decision-making.
 - **Data Management Refinement**: Collaborated on data management optimization and pipeline refinement to structure raw market data feeds into standardized database frameworks.
-- **SQL Integration**: Utilized SQL database querying alongside Excel VBA, Power BI, Power Query, Python, and R.
+- **Technical Stack**: Python, R Scripting, Prompt Engineering, SQL, Microsoft Excel, Power BI, Power Query, Excel VBA, IPGA CSV Conversion Pipelines.
 
 ---
 
