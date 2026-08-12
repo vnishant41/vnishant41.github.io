@@ -77,7 +77,7 @@
         a { color: inherit; text-decoration: none; }
         .container { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
 
-        /* Header & Perfectly Aligned Nav Bar */
+        /* Header Navigation */
         header { position: sticky; top: 0; z-index: 100; background: var(--nav-bg); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-color); }
         .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 20px; }
         
@@ -102,35 +102,43 @@
         .theme-toggle { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main); width: 38px; height: 38px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; transition: var(--transition); flex-shrink: 0; }
         .theme-toggle:hover { border-color: var(--primary); color: var(--primary); }
 
-        /* Section Layout & Standardized Alignment */
+        /* Section Layout */
         section { padding: 84px 0; border-bottom: 1px solid var(--border-color); }
         .section-header { max-width: 760px; margin-bottom: 44px; }
         .section-tag { display: inline-block; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 12px; background: var(--tag-bg); padding: 4px 12px; border-radius: 20px; }
         .section-title { font-size: clamp(2rem, 3.2vw, 2.6rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.04em; margin-bottom: 14px; }
         .section-desc { font-size: 1.05rem; color: var(--text-muted); line-height: 1.6; }
 
-        /* Hero Section */
+        /* Hero Section with Candidate Profile Photo */
         .hero { padding: 84px 0 76px; background: radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.07) 0%, transparent 60%); }
-        .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 52px; align-items: stretch; }
+        .hero-grid { display: grid; grid-template-columns: 1.08fr 0.92fr; gap: 48px; align-items: stretch; }
         .hero-content { display: flex; flex-direction: column; justify-content: center; }
         .hero-eyebrow { font-size: 0.82rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
         .hero-title { font-size: clamp(2.4rem, 4.2vw, 3.4rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.045em; margin-bottom: 20px; }
         .hero-title span { color: var(--primary); }
         .hero-subtitle { font-size: 1.08rem; color: var(--text-muted); margin-bottom: 32px; line-height: 1.65; max-width: 640px; }
-        
         .hero-buttons { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 
-        .profile-summary-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; }
+        /* Candidate Card with Photo Integration */
+        .profile-summary-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 32px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; }
         .profile-summary-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--primary), var(--accent-gold)); }
-        .card-label { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); margin-bottom: 12px; display: inline-block; background: rgba(217, 119, 6, 0.12); padding: 4px 10px; border-radius: 20px; align-self: flex-start; }
-        .candidate-name { font-size: 1.6rem; font-weight: 800; margin-bottom: 4px; letter-spacing: -0.02em; }
-        .candidate-title { font-size: 1.02rem; font-weight: 700; color: var(--primary); margin-bottom: 16px; }
+        
+        .candidate-header-flex { display: flex; gap: 18px; align-items: center; margin-bottom: 20px; }
+        .candidate-avatar { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary); box-shadow: 0 0 16px var(--primary-glow); flex-shrink: 0; }
+        .candidate-meta { flex: 1; }
+        .card-label { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); margin-bottom: 6px; display: inline-block; background: rgba(217, 119, 6, 0.12); padding: 3px 10px; border-radius: 20px; }
+        .candidate-name { font-size: 1.5rem; font-weight: 800; margin-bottom: 2px; letter-spacing: -0.02em; }
+        .candidate-title { font-size: 0.95rem; font-weight: 700; color: var(--primary); line-height: 1.3; }
+        
         .candidate-bio { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6; }
         
         .fact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
         .fact-item { background: var(--bg-card-alt); border: 1px solid var(--border-color); padding: 12px 14px; border-radius: var(--radius-sm); }
         .fact-item strong { display: block; font-size: 0.92rem; color: var(--text-main); }
         .fact-item span { font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
+
+        /* Proactive Value Badge */
+        .proactive-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent-purple); background: rgba(139, 92, 246, 0.12); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(139, 92, 246, 0.25); margin-bottom: 12px; }
 
         /* About Me Section */
         .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
@@ -182,6 +190,10 @@
         .timeline-company { font-size: 0.95rem; font-weight: 600; color: var(--text-muted); margin-bottom: 12px; }
         .timeline-desc { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
         
+        .impact-list { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
+        .impact-list li { display: flex; align-items: flex-start; gap: 8px; font-size: 0.88rem; color: var(--text-main); }
+        .impact-list li i { color: var(--accent-purple); font-size: 0.85rem; margin-top: 4px; }
+
         .edu-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 24px; margin-bottom: 16px; }
         .edu-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; }
         .edu-card p { color: var(--text-muted); font-size: 0.88rem; }
@@ -226,7 +238,7 @@
 </head>
 <body>
 
-    <!-- Header Navigation with Pixel-Perfect Alignment -->
+    <!-- Header Navigation -->
     <header>
         <div class="container nav-inner">
             <a href="#top" class="brand-logo">
@@ -284,13 +296,19 @@
                     </div>
                 </div>
 
+                <!-- Profile Summary Card with Headshot Photo -->
                 <div class="profile-summary-card">
                     <div>
-                        <span class="card-label"><i class="fa-solid fa-id-card"></i> Candidate Summary</span>
-                        <h2 class="candidate-name">Nishant Vishwakarma</h2>
-                        <div class="candidate-title">Junior Research Analyst — Commodity Markets & Agribusiness</div>
+                        <div class="candidate-header-flex">
+                            <img src="assets/nishant_profile.png" alt="Nishant Vishwakarma Profile Photo" class="candidate-avatar">
+                            <div class="candidate-meta">
+                                <span class="card-label"><i class="fa-solid fa-id-card"></i> Candidate Profile</span>
+                                <h2 class="candidate-name">Nishant Vishwakarma</h2>
+                                <div class="candidate-title">Junior Research Analyst — Agribusiness & Commodity Markets</div>
+                            </div>
+                        </div>
                         <p class="candidate-bio">
-                            Working at Agnomics Analytics Lab (agAlabs), analyzing Indian and international pulse markets, standardizing IPGA daily market feeds, and transforming raw commodity data into actionable intelligence.
+                            Junior Research Analyst at Agnomics Analytics Lab (agAlabs). Beyond daily pulse commodity market surveillance, proactively engineered automated IPGA daily price pipelines and full-stack research team MIS systems.
                         </p>
                     </div>
                     
@@ -389,9 +407,9 @@
             <div class="container">
                 <div class="section-header">
                     <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Candidate Evidence</span>
-                    <h2 class="section-title">Selected Projects & Research Work</h2>
+                    <h2 class="section-title">Selected Projects & Proactive Value Additions</h2>
                     <p class="section-desc">
-                        These projects demonstrate my technical capabilities, data discipline, and agribusiness problem-solving skills.
+                        These projects demonstrate my technical capabilities, data discipline, and proactive initiative beyond standard daily analyst duties.
                     </p>
                 </div>
 
@@ -399,13 +417,14 @@
                 <div class="project-card">
                     <div class="project-header">
                         <div>
-                            <div class="project-num">PROJECT 01 · DATA MANAGEMENT & AUTOMATION</div>
+                            <span class="proactive-badge"><i class="fa-solid fa-star"></i> Proactive System Initiative</span>
+                            <div class="project-num">PROJECT 01 · DATA ENGINEERING & AUTOMATION</div>
                             <h3 class="project-title">IPGA Daily Price CSV Conversion Workflow</h3>
                         </div>
                         <span class="tag" style="color: var(--primary);"><i class="fa-solid fa-check-circle"></i> Excel / VBA / Data Engineering</span>
                     </div>
                     <p class="project-desc">
-                        Engineered an automated data management workflow for daily market price feeds from the <strong>India Pulses and Grains Association (IPGA)</strong>. The system normalizes heterogeneous input feeds into clean, validated CSV datasets ready for database ingestion and research reporting.
+                        Engineered an automated data management workflow for daily market price feeds from the <strong>India Pulses and Grains Association (IPGA)</strong>. Built as a proactive organizational solution, the system normalizes heterogeneous input feeds into clean, validated CSV datasets ready for database ingestion and research reporting.
                     </p>
 
                     <div class="project-details-grid">
@@ -436,7 +455,8 @@
                 <div class="project-card">
                     <div class="project-header">
                         <div>
-                            <div class="project-num">PROJECT 02 · FULL-STACK MIS SYSTEM</div>
+                            <span class="proactive-badge"><i class="fa-solid fa-star"></i> Proactive Full-Stack System</span>
+                            <div class="project-num">PROJECT 02 · FULL-STACK MIS PLATFORM</div>
                             <h3 class="project-title">Advanced Research Team MIS System (http://168.144.28.192/)</h3>
                         </div>
                         <span class="tag" style="color: var(--accent-purple);"><i class="fa-solid fa-server"></i> Live Systems Development</span>
@@ -581,7 +601,12 @@
                                 <div class="timeline-role">Junior Research Analyst</div>
                                 <div class="timeline-company">Agnomics Analytics Lab (agAlabs)</div>
                                 <div class="timeline-desc">
-                                    Specializing in pulse commodity research across Indian and global origins. Standardize daily <strong>IPGA market price data feeds</strong>, manage database CSV transformation pipelines, and author daily & weekly commodity research publications. Built the <strong>Advanced Research Team MIS System</strong> (<a href="http://168.144.28.192/" target="_blank" style="color: var(--primary);">168.144.28.192</a>).
+                                    Specializing in pulse commodity research across Indian and international origins. Author daily & weekly commodity research publications.
+                                    
+                                    <ul class="impact-list">
+                                        <li><i class="fa-solid fa-star"></i> <span><strong>Proactive IPGA Pipeline:</strong> Standardized daily IPGA market price feeds and managed database CSV transformation workflows.</span></li>
+                                        <li><i class="fa-solid fa-star"></i> <span><strong>Full-Stack MIS System:</strong> Proactively built and deployed the Advanced Research Team MIS System (<a href="http://168.144.28.192/" target="_blank" style="color: var(--primary);">168.144.28.192</a>) beyond daily research tasks to streamline team operations.</span></li>
+                                    </ul>
                                 </div>
                             </div>
 

@@ -41,6 +41,10 @@
 
 ## 🛠️ Core Projects & Experience to Highlight
 
+> [!NOTE]
+> **Proactive Organizational Impact Rule:**
+> Both the **IPGA Daily Price CSV Conversion Workflow** and the **Advanced Research Team MIS System (`http://168.144.28.192/`)** were created by Nishant as **proactive, high-impact technical initiatives given to the organization beyond his daily core analyst responsibilities**.
+
 ### 1. IPGA Data Management & Daily Price CSV Conversion Workflow
 - **Context**: Managed and automated daily market data ingestion for the **India Pulses and Grains Association (IPGA)**.
 - **Data Engineering**: Raw daily feeds contain unstandardized regional mandi names (e.g., Gulbarga vs Kalaburagi), mixed trade units (Rs/20kg, 50kg bags, trucks, $/MT, Kyats), and variety nomenclatures.
@@ -64,13 +68,16 @@
    - Navbar links should use concise text: `About`, `Capabilities`, `Projects`, `Strengths`, `Experience`, `Contact`.
    - Action items on the right (Theme Toggle, Download Resume, Email Me) must be vertically centered in `.nav-actions`.
 
-2. **Color System & Aesthetics**:
+2. **Candidate Headshot Integration**:
+   - Display Nishant's candidate profile photo (`assets/nishant_profile.png`) prominently in the hero summary card.
+
+3. **Color System & Aesthetics**:
    - Executive dark theme default (`#0a1711` background, `#10241b` card, `#10b981` primary emerald green, `#d97706` gold accent).
    - Clean Light Theme alternative with smooth CSS variable transitions.
    - Corporate executive typography using Google Fonts `Plus Jakarta Sans` and `Inter`.
 
-3. **No Placeholders**:
-   - Always link real assets (`assets/Nishant_Vishwakarma_CV.pdf`, real URLs, verified project credentials).
+4. **No Placeholders**:
+   - Always link real assets (`assets/Nishant_Vishwakarma_CV.pdf`, `assets/nishant_profile.png`, real URLs, verified project credentials).
 
-4. **Deployment Stack**:
+5. **Deployment Stack**:
    - Single-page static web application (`index.html`) deployed to GitHub root for GitHub Pages automatic deployment.
