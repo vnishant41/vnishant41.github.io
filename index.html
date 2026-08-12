@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nishant Vishwakarma | Agribusiness, IPGA & Advanced MIS Research Analyst</title>
-    <meta name="description" content="Professional Portfolio of Nishant Vishwakarma - Junior Research Analyst & Agribusiness Specialist behind the IPGA Daily Price CSV Pipeline and Advanced Research Team MIS System (http://168.144.28.192/).">
-    <meta name="keywords" content="Nishant Vishwakarma, Advanced MIS, IPGA Data, Commodity Analyst, Pulses Research, Agribusiness, Power BI, Excel VBA, Research Team Hub, agAlabs">
+    <title>Nishant Vishwakarma | Junior Research Analyst — Agribusiness & Commodity Markets</title>
+    <meta name="description" content="Professional recruiter-facing portfolio of Nishant Vishwakarma, Junior Research Analyst specializing in commodity research, IPGA data management, agricultural market intelligence, and MIS systems.">
+    <meta name="keywords" content="Nishant Vishwakarma, Research Analyst Portfolio, Agribusiness Analyst, Commodity Research, IPGA Data Management, agAlabs, JNKVV, Pulse Market Intelligence">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Nishant Vishwakarma | Agribusiness, IPGA & Advanced MIS Creator">
-    <meta property="og:description" content="Turning raw agricultural market data, IPGA daily feeds, and research workflows into actionable commodity intelligence and full-stack MIS systems.">
+    <meta property="og:title" content="Nishant Vishwakarma | Agribusiness & Commodity Research Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing commodity research discipline, IPGA data pipelines, agribusiness expertise, and technical MIS projects.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://vnishant41.github.io">
 
@@ -18,247 +18,196 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Chart.js for Interactive Widgets -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <style>
         :root {
-            /* Dark Theme Palette */
-            --bg-body: #09130e;
-            --bg-card: #0f2219;
-            --bg-card-hover: #152d21;
-            --bg-card-alt: #12281d;
-            --border-color: #1b3d2b;
-            --border-hover: #295b41;
-            --text-main: #ecf3ee;
-            --text-muted: #95ab9d;
-            --text-dim: #647b6d;
+            /* Corporate Dark Theme Palette */
+            --bg-body: #0a1711;
+            --bg-card: #10241b;
+            --bg-card-hover: #162f23;
+            --bg-card-alt: #132a1f;
+            --border-color: #1c3c2d;
+            --border-hover: #2d5e46;
+            --text-main: #f0f5f2;
+            --text-muted: #9ab0a3;
+            --text-dim: #6b8476;
             --primary: #10b981;
-            --primary-glow: rgba(16, 185, 129, 0.25);
+            --primary-glow: rgba(16, 185, 129, 0.2);
             --primary-dark: #059669;
-            --accent-gold: #f59e0b;
-            --accent-blue: #3b82f6;
+            --accent-gold: #d97706;
             --accent-purple: #8b5cf6;
+            --accent-blue: #3b82f6;
             --tag-bg: rgba(16, 185, 129, 0.12);
             --tag-text: #34d399;
-            --nav-bg: rgba(9, 19, 14, 0.88);
-            --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+            --nav-bg: rgba(10, 23, 17, 0.92);
+            --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.35);
             --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
             --radius-sm: 8px;
             --radius-md: 14px;
-            --radius-lg: 22px;
+            --radius-lg: 20px;
             --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         [data-theme="light"] {
-            --bg-body: #f4f7f5;
+            --bg-body: #f5f8f6;
             --bg-card: #ffffff;
             --bg-card-hover: #f8faf9;
-            --bg-card-alt: #eaf1ed;
-            --border-color: #d1e0d7;
-            --border-hover: #a3c4b1;
-            --text-main: #0d2217;
-            --text-muted: #4b6355;
-            --text-dim: #71897b;
+            --bg-card-alt: #ebf2ed;
+            --border-color: #d1e2d7;
+            --border-hover: #a5c7b3;
+            --text-main: #0c2117;
+            --text-muted: #4a6355;
+            --text-dim: #718a7c;
             --primary: #059669;
-            --primary-glow: rgba(5, 150, 105, 0.2);
+            --primary-glow: rgba(5, 150, 105, 0.18);
             --primary-dark: #047857;
             --accent-gold: #d97706;
-            --accent-blue: #2563eb;
             --accent-purple: #7c3aed;
+            --accent-blue: #2563eb;
             --tag-bg: rgba(5, 150, 105, 0.1);
             --tag-text: #047857;
-            --nav-bg: rgba(244, 247, 245, 0.9);
+            --nav-bg: rgba(245, 248, 246, 0.92);
             --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
-            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; }
-        body { background-color: var(--bg-body); color: var(--text-main); line-height: 1.6; transition: background-color 0.3s ease, color 0.3s ease; overflow-x: hidden; }
+        body { background-color: var(--bg-body); color: var(--text-main); line-height: 1.65; transition: background-color 0.3s ease, color 0.3s ease; overflow-x: hidden; }
         a { color: inherit; text-decoration: none; }
-        .container { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 
-        /* Header */
+        /* Header & Nav */
         header { position: sticky; top: 0; z-index: 100; background: var(--nav-bg); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-color); transition: var(--transition); }
         .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
-        .brand-logo { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 1.25rem; letter-spacing: -0.03em; }
-        .brand-badge { background: var(--primary); color: #ffffff; width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; box-shadow: 0 0 15px var(--primary-glow); }
+        .brand-logo { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 1.2rem; letter-spacing: -0.03em; }
+        .brand-badge { background: var(--primary); color: #ffffff; width: 36px; height: 36px; border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 1rem; box-shadow: 0 0 14px var(--primary-glow); }
         .nav-links { display: flex; gap: 24px; list-style: none; font-size: 0.9rem; font-weight: 600; color: var(--text-muted); }
         .nav-links a { transition: var(--transition); position: relative; padding: 4px 0; }
         .nav-links a:hover, .nav-links a.active { color: var(--primary); }
         .nav-actions { display: flex; align-items: center; gap: 12px; }
 
         /* Buttons */
-        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; border-radius: var(--radius-sm); font-size: 0.88rem; font-weight: 700; cursor: pointer; transition: var(--transition); border: 1px solid transparent; text-align: center; justify-content: center; }
+        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 20px; border-radius: var(--radius-sm); font-size: 0.88rem; font-weight: 700; cursor: pointer; transition: var(--transition); border: 1px solid transparent; text-align: center; justify-content: center; }
         .btn-primary { background: var(--primary); color: #ffffff; box-shadow: 0 4px 16px var(--primary-glow); }
         .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 24px var(--primary-glow); }
-        .btn-purple { background: var(--accent-purple); color: #ffffff; box-shadow: 0 4px 16px rgba(139, 92, 246, 0.3); }
-        .btn-purple:hover { background: #7c3aed; transform: translateY(-2px); }
         .btn-outline { background: transparent; border-color: var(--border-color); color: var(--text-main); }
         .btn-outline:hover { border-color: var(--primary); color: var(--primary); background: var(--tag-bg); transform: translateY(-2px); }
-        .theme-toggle { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main); width: 40px; height: 40px; border-radius: 10px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: var(--transition); }
+        .theme-toggle { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main); width: 40px; height: 40px; border-radius: 9px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: var(--transition); }
+        .theme-toggle:hover { border-color: var(--primary); color: var(--primary); }
 
-        /* Sections */
-        section { padding: 90px 0; border-bottom: 1px solid var(--border-color); }
-        .section-header { max-width: 760px; margin-bottom: 48px; }
-        .section-tag { display: inline-block; font-size: 0.82rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 12px; background: var(--tag-bg); padding: 4px 12px; border-radius: 20px; }
-        .section-title { font-size: clamp(2rem, 3.5vw, 2.75rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.04em; margin-bottom: 16px; }
-        .section-desc { font-size: 1.08rem; color: var(--text-muted); line-height: 1.6; }
+        /* Section Layout */
+        section { padding: 84px 0; border-bottom: 1px solid var(--border-color); }
+        .section-header { max-width: 760px; margin-bottom: 44px; }
+        .section-tag { display: inline-block; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 12px; background: var(--tag-bg); padding: 4px 12px; border-radius: 20px; }
+        .section-title { font-size: clamp(2rem, 3.2vw, 2.6rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.04em; margin-bottom: 14px; }
+        .section-desc { font-size: 1.05rem; color: var(--text-muted); line-height: 1.6; }
 
-        /* Hero */
-        .hero { padding: 90px 0 80px; background: radial-gradient(circle at 80% 20%, rgba(16, 185, 129, 0.08) 0%, transparent 60%); }
-        .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: center; }
-        .hero-title { font-size: clamp(2.5rem, 4.5vw, 3.8rem); font-weight: 800; line-height: 1.08; letter-spacing: -0.05em; margin: 16px 0 24px; }
-        .hero-title span { color: var(--primary); background: linear-gradient(135deg, var(--primary) 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .hero-subtitle { font-size: 1.15rem; color: var(--text-muted); margin-bottom: 32px; line-height: 1.65; }
+        /* Hero Section */
+        .hero { padding: 84px 0 76px; background: radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.07) 0%, transparent 60%); }
+        .hero-grid { display: grid; grid-template-columns: 1.12fr 0.88fr; gap: 56px; align-items: center; }
+        .hero-eyebrow { font-size: 0.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+        .hero-title { font-size: clamp(2.4rem, 4.2vw, 3.5rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.045em; margin-bottom: 20px; }
+        .hero-title span { color: var(--primary); }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 32px; line-height: 1.65; max-width: 640px; }
         .hero-buttons { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
 
-        .hero-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; padding-top: 28px; border-top: 1px solid var(--border-color); }
-        .stat-card { background: var(--bg-card); border: 1px solid var(--border-color); padding: 16px; border-radius: var(--radius-sm); text-align: center; }
-        .stat-num { font-size: 1.55rem; font-weight: 800; color: var(--primary); margin-bottom: 4px; }
-        .stat-label { font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
+        .profile-summary-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden; }
+        .profile-summary-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--primary), var(--accent-gold)); }
+        .card-label { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); margin-bottom: 12px; display: inline-block; background: rgba(217, 119, 6, 0.12); padding: 4px 10px; border-radius: 20px; }
+        .candidate-name { font-size: 1.6rem; font-weight: 800; margin-bottom: 4px; letter-spacing: -0.02em; }
+        .candidate-title { font-size: 1.05rem; font-weight: 700; color: var(--primary); margin-bottom: 16px; }
+        .candidate-bio { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6; }
+        
+        .fact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .fact-item { background: var(--bg-card-alt); border: 1px solid var(--border-color); padding: 12px 14px; border-radius: var(--radius-sm); }
+        .fact-item strong { display: block; font-size: 0.95rem; color: var(--text-main); }
+        .fact-item span { font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
 
-        .hero-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden; }
-        .hero-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--primary), var(--accent-purple), var(--accent-gold)); }
-        .card-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); background: rgba(245, 158, 11, 0.12); padding: 4px 10px; border-radius: 20px; margin-bottom: 16px; }
-        .card-role { font-size: 1.4rem; font-weight: 800; margin-bottom: 12px; letter-spacing: -0.02em; }
-        .card-desc { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px; }
-        .card-features { display: flex; flex-direction: column; gap: 12px; }
-        .feature-item { display: flex; align-items: center; gap: 12px; font-size: 0.9rem; color: var(--text-main); background: var(--bg-card-alt); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); }
-        .feature-item i { color: var(--primary); font-size: 1rem; }
+        /* About Me Section */
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .about-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 32px; transition: var(--transition); }
+        .about-card:hover { border-color: var(--border-hover); transform: translateY(-3px); box-shadow: var(--shadow-sm); }
+        .about-card h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+        .about-card h3 i { color: var(--primary); }
+        .about-card p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; }
 
-        /* MIS Section (NEW) */
-        .mis-section { background: radial-gradient(circle at 10% 90%, rgba(139, 92, 246, 0.08) 0%, transparent 60%); }
-        .mis-badge { background: rgba(139, 92, 246, 0.15); color: var(--accent-purple); }
-        .mis-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; margin-bottom: 40px; }
-        .mis-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 32px; transition: var(--transition); }
-        .mis-box:hover { border-color: var(--accent-purple); transform: translateY(-4px); box-shadow: var(--shadow-sm); }
-        .mis-icon { width: 50px; height: 50px; border-radius: 12px; background: rgba(139, 92, 246, 0.12); color: var(--accent-purple); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 20px; }
-        .mis-box h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 12px; }
-        .mis-box p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 16px; }
+        /* Capabilities Grid */
+        .cap-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+        .cap-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; transition: var(--transition); display: flex; flex-direction: column; height: 100%; }
+        .cap-box:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: var(--shadow-sm); }
+        .cap-num { font-size: 0.8rem; font-weight: 800; color: var(--primary); letter-spacing: 0.1em; margin-bottom: 14px; }
+        .cap-box h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; }
+        .cap-box p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.55; }
 
-        /* Interactive MIS Live Preview Widget */
-        .mis-preview-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-lg); }
-        .mis-preview-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 16px; }
-        .mis-title { display: flex; align-items: center; gap: 12px; font-size: 1.25rem; font-weight: 800; }
-        .mis-title i { color: var(--accent-purple); }
-        .mis-nav-pills { display: flex; gap: 10px; flex-wrap: wrap; }
-        .mis-pill { padding: 8px 16px; border-radius: 20px; background: var(--bg-body); border: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.85rem; font-weight: 700; cursor: pointer; transition: var(--transition); }
-        .mis-pill:hover, .mis-pill.active { background: var(--accent-purple); color: #ffffff; border-color: var(--accent-purple); }
+        /* Featured Projects (Candidate Work Samples) */
+        .project-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; margin-bottom: 28px; box-shadow: var(--shadow-sm); transition: var(--transition); }
+        .project-card:hover { border-color: var(--border-hover); box-shadow: var(--shadow-lg); }
+        .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; flex-wrap: wrap; gap: 12px; }
+        .project-num { font-size: 0.8rem; font-weight: 800; color: var(--primary); letter-spacing: 0.1em; }
+        .project-title { font-size: 1.45rem; font-weight: 800; margin-top: 4px; }
+        .project-desc { color: var(--text-muted); font-size: 0.98rem; margin-bottom: 24px; line-height: 1.65; max-width: 900px; }
+        
+        .project-details-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+        .detail-box { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 16px; }
+        .detail-box h4 { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary); margin-bottom: 6px; }
+        .detail-box p { font-size: 0.88rem; color: var(--text-muted); }
 
-        .mis-display-container { background: var(--bg-body); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 24px; min-height: 240px; }
-        .kanban-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-        .kanban-col { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px; }
-        .kanban-col h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); margin-bottom: 12px; display: flex; justify-content: space-between; }
-        .kanban-card { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; margin-bottom: 10px; font-size: 0.85rem; }
-        .kanban-card strong { display: block; margin-bottom: 4px; color: var(--text-main); }
-        .kanban-card span { font-size: 0.75rem; color: var(--text-muted); }
+        .project-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+        .tag { font-size: 0.78rem; font-weight: 700; padding: 5px 12px; border-radius: 6px; background: var(--bg-card-alt); color: var(--text-muted); border: 1px solid var(--border-color); }
 
-        /* IPGA Section */
-        .ipga-section { background: var(--bg-card-alt); }
-        .ipga-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; margin-bottom: 40px; }
-        .ipga-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 32px; transition: var(--transition); }
-        .ipga-box:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: var(--shadow-sm); }
-        .ipga-icon { width: 50px; height: 50px; border-radius: 12px; background: var(--tag-bg); color: var(--primary); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; margin-bottom: 20px; }
-        .ipga-box h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 12px; }
-        .ipga-box p { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 16px; }
-        .ipga-tags { display: flex; flex-wrap: wrap; gap: 8px; }
-        .tag { font-size: 0.78rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; background: var(--bg-card-alt); color: var(--text-muted); border: 1px solid var(--border-color); }
+        /* Strengths Grid */
+        .strengths-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .strength-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; transition: var(--transition); }
+        .strength-card:hover { border-color: var(--primary); transform: translateY(-3px); }
+        .strength-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 8px; color: var(--text-main); display: flex; align-items: center; gap: 10px; }
+        .strength-card h3 i { color: var(--primary); font-size: 1rem; }
+        .strength-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
 
-        /* Converter Card */
-        .converter-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-lg); }
-        .converter-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 16px; }
-        .converter-title { display: flex; align-items: center; gap: 12px; font-size: 1.25rem; font-weight: 800; }
-        .sample-selector { display: flex; gap: 10px; align-items: center; }
-        select, input, textarea { background: var(--bg-body); border: 1px solid var(--border-color); color: var(--text-main); padding: 10px 14px; border-radius: var(--radius-sm); font-family: inherit; font-size: 0.9rem; outline: none; transition: var(--transition); }
-        select:focus, input:focus, textarea:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-glow); }
-        .converter-workspace { display: grid; grid-template-columns: 1fr 1.2fr; gap: 24px; }
-        .workspace-panel { display: flex; flex-direction: column; gap: 14px; }
-        .panel-label { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); display: flex; justify-content: space-between; }
-        .raw-input-box { width: 100%; height: 180px; font-family: monospace; font-size: 0.85rem; resize: vertical; line-height: 1.5; }
-        .converter-actions { display: flex; gap: 12px; }
-        .csv-table-wrapper { background: var(--bg-body); border: 1px solid var(--border-color); border-radius: var(--radius-sm); overflow-x: auto; max-height: 240px; }
-        table.csv-preview { width: 100%; border-collapse: collapse; font-size: 0.82rem; text-align: left; }
-        table.csv-preview th { background: var(--bg-card-alt); color: var(--text-main); padding: 10px 12px; font-weight: 700; border-bottom: 1px solid var(--border-color); position: sticky; top: 0; }
-        table.csv-preview td { padding: 8px 12px; border-bottom: 1px solid var(--border-color); color: var(--text-muted); white-space: nowrap; }
-        table.csv-preview tr:hover td { background: rgba(16, 185, 129, 0.05); color: var(--text-main); }
-        .badge-status { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; }
-        .badge-mapped { background: rgba(16, 185, 129, 0.15); color: var(--primary); }
-        .badge-converted { background: rgba(59, 130, 246, 0.15); color: var(--accent-blue); }
-
-        /* Dashboard */
-        .pulse-nav-tabs { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 28px; }
-        .tab-btn { padding: 10px 20px; border-radius: 30px; background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-muted); font-weight: 700; font-size: 0.9rem; cursor: pointer; white-space: nowrap; transition: var(--transition); display: flex; align-items: center; gap: 8px; }
-        .tab-btn:hover, .tab-btn.active { background: var(--primary); color: #ffffff; border-color: var(--primary); box-shadow: 0 4px 14px var(--primary-glow); }
-        .dashboard-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
-        .dash-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; }
-        .dash-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-        .dash-card-title { font-size: 1.15rem; font-weight: 800; display: flex; align-items: center; gap: 10px; }
-        .dash-card-title i { color: var(--primary); }
-        .price-stats-list { display: flex; flex-direction: column; gap: 12px; }
-        .price-row { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: var(--bg-body); border-radius: var(--radius-sm); border: 1px solid var(--border-color); }
-        .price-info strong { display: block; font-size: 0.92rem; }
-        .price-info span { font-size: 0.78rem; color: var(--text-dim); }
-        .price-val { text-align: right; }
-        .price-val strong { display: block; font-size: 1.05rem; color: var(--primary); }
-        .trend-up { color: #10b981; font-size: 0.78rem; font-weight: 700; }
-        .trend-down { color: #ef4444; font-size: 0.78rem; font-weight: 700; }
-
-        /* Capabilities */
-        .capabilities-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-        .cap-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; transition: var(--transition); display: flex; flex-direction: column; height: 100%; }
-        .cap-card:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: var(--shadow-sm); }
-        .cap-num { font-size: 0.85rem; font-weight: 800; color: var(--primary); margin-bottom: 16px; }
-        .cap-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; }
-        .cap-card p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.55; }
-
-        /* Timeline */
-        .timeline-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 50px; }
-        .timeline-track { border-left: 2px solid var(--border-color); padding-left: 28px; display: flex; flex-direction: column; gap: 36px; position: relative; }
+        /* Experience Timeline */
+        .timeline-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 48px; }
+        .timeline-track { border-left: 2px solid var(--border-color); padding-left: 28px; display: flex; flex-direction: column; gap: 32px; position: relative; }
         .timeline-item { position: relative; }
         .timeline-item::before { content: ''; position: absolute; left: -35px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--primary); border: 4px solid var(--bg-body); box-shadow: 0 0 10px var(--primary-glow); }
         .timeline-date { font-size: 0.8rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
         .timeline-role { font-size: 1.25rem; font-weight: 800; margin-bottom: 4px; }
         .timeline-company { font-size: 0.95rem; font-weight: 600; color: var(--text-muted); margin-bottom: 12px; }
         .timeline-desc { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+        
         .edu-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 24px; margin-bottom: 16px; }
         .edu-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; }
         .edu-card p { color: var(--text-muted); font-size: 0.88rem; }
-        .special-note { background: rgba(245, 158, 11, 0.08); border-left: 4px solid var(--accent-gold); padding: 20px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-top: 20px; }
-        .special-note h4 { color: var(--accent-gold); font-size: 1rem; margin-bottom: 6px; }
-        .special-note p { font-size: 0.88rem; color: var(--text-muted); }
+        
+        .bhu-note { background: rgba(217, 119, 6, 0.08); border-left: 4px solid var(--accent-gold); padding: 20px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-top: 20px; }
+        .bhu-note h4 { color: var(--accent-gold); font-size: 0.95rem; margin-bottom: 6px; font-weight: 800; }
+        .bhu-note p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; }
 
-        /* Skills */
-        .skills-filter { display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap; }
-        .filter-btn { padding: 8px 16px; border-radius: 20px; background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: var(--transition); }
-        .filter-btn:hover, .filter-btn.active { background: var(--primary); color: #ffffff; border-color: var(--primary); }
+        /* Skills Matrix */
         .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
         .skill-pill { background: var(--bg-card); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: var(--radius-sm); font-size: 0.88rem; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 8px; transition: var(--transition); }
         .skill-pill i { color: var(--primary); }
         .skill-pill:hover { border-color: var(--primary); transform: translateY(-2px); }
 
-        /* Contact */
-        .contact-card { background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-alt) 100%); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 60px; box-shadow: var(--shadow-lg); text-align: center; max-width: 920px; margin: 0 auto; }
-        .contact-card h2 { font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 800; letter-spacing: -0.04em; margin-bottom: 16px; }
-        .contact-card p { font-size: 1.1rem; color: var(--text-muted); max-width: 680px; margin: 0 auto 36px; }
+        /* Contact Section */
+        .contact-card { background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-alt) 100%); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 56px 40px; box-shadow: var(--shadow-lg); text-align: center; max-width: 900px; margin: 0 auto; }
+        .contact-card h2 { font-size: clamp(1.8rem, 3.2vw, 2.6rem); font-weight: 800; letter-spacing: -0.04em; margin-bottom: 16px; }
+        .contact-card p { font-size: 1.05rem; color: var(--text-muted); max-width: 640px; margin: 0 auto 36px; }
         .contact-buttons { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
 
         /* Footer */
         footer { padding: 32px 0; color: var(--text-dim); font-size: 0.85rem; border-top: 1px solid var(--border-color); }
         .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
 
+        /* Responsive Breakpoints */
         @media (max-width: 992px) {
-            .hero-grid, .mis-hero-grid, .ipga-grid, .dashboard-grid, .timeline-grid { grid-template-columns: 1fr; }
-            .capabilities-grid { grid-template-columns: repeat(2, 1fr); }
-            .converter-workspace { grid-template-columns: 1fr; }
-            .hero-stats { grid-template-columns: repeat(2, 1fr); }
-            .kanban-grid { grid-template-columns: 1fr; }
+            .hero-grid, .about-grid, .timeline-grid { grid-template-columns: 1fr; }
+            .cap-grid { grid-template-columns: repeat(2, 1fr); }
+            .strengths-grid { grid-template-columns: 1fr; }
+            .project-details-grid { grid-template-columns: 1fr; }
         }
         @media (max-width: 768px) {
             .nav-links { display: none; }
-            .capabilities-grid { grid-template-columns: 1fr; }
+            .cap-grid { grid-template-columns: 1fr; }
             .contact-card { padding: 36px 20px; }
             section { padding: 60px 0; }
         }
@@ -266,32 +215,32 @@
 </head>
 <body>
 
-    <!-- Sticky Header -->
+    <!-- Header Navigation -->
     <header>
         <div class="container nav-inner">
             <a href="#top" class="brand-logo">
                 <div class="brand-badge"><i class="fa-solid fa-wheat-awn"></i></div>
-                <span>Nishant Vishwakarma</span>
+                <span>NISHANT VISHWAKARMA</span>
             </a>
             
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#mis-hub">Advanced MIS System</a></li>
-                <li><a href="#ipga-work">IPGA Data Work</a></li>
-                <li><a href="#research">Pulse Dashboard</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
+                <li><a href="#projects">Work & Projects</a></li>
+                <li><a href="#strengths">Strengths</a></li>
+                <li><a href="#experience">Experience & Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
             <div class="nav-actions">
-                <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark/Light Theme">
                     <i class="fa-solid fa-moon"></i>
                 </button>
                 <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-outline">
-                    <i class="fa-solid fa-file-arrow-down"></i> Resume
+                    <i class="fa-solid fa-file-pdf"></i> Download Resume
                 </a>
-                <a href="#contact" class="btn btn-primary">
-                    <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                <a href="mailto:vnishant41@gmail.com" class="btn btn-primary">
+                    <i class="fa-solid fa-envelope"></i> Email Me
                 </a>
             </div>
         </div>
@@ -303,336 +252,314 @@
         <section class="hero">
             <div class="container hero-grid">
                 <div>
-                    <span class="section-tag"><i class="fa-solid fa-atom"></i> Agribusiness & Full-Stack MIS Analytics</span>
-                    <h1 class="hero-title">Building intelligence from <span>agricultural markets & data systems.</span></h1>
+                    <div class="hero-eyebrow">
+                        <i class="fa-solid fa-circle-dot"></i> Recruiter Portfolio · Commodity Analytics & Agribusiness
+                    </div>
+                    <h1 class="hero-title">Building insight from <span>agricultural markets & data.</span></h1>
                     <p class="hero-subtitle">
-                        <strong>Nishant Vishwakarma</strong> — Junior Research Analyst at <em>agAlabs</em> specializing in pulses commodity research, IPGA data pipeline automation, and the full-stack creator of the <strong>Advanced Research Team MIS System</strong> (<a href="http://168.144.28.192/" target="_blank" style="color: var(--primary); text-decoration: underline;">168.144.28.192</a>).
+                        <strong>Nishant Vishwakarma</strong> — Junior Research Analyst with a strong background in agriculture and agribusiness management, specializing in commodity research, IPGA data management pipelines, market intelligence, and analytical systems.
                     </p>
                     
                     <div class="hero-buttons">
-                        <a href="#mis-hub" class="btn btn-purple">
-                            <i class="fa-solid fa-network-wired"></i> Live MIS System (168.144.28.192)
+                        <a href="#about" class="btn btn-primary">
+                            <i class="fa-solid fa-user-check"></i> Candidate Overview
                         </a>
-                        <a href="#ipga-work" class="btn btn-primary">
-                            <i class="fa-solid fa-database"></i> Explore IPGA Work
+                        <a href="#projects" class="btn btn-outline">
+                            <i class="fa-solid fa-folder-open"></i> Featured Portfolio Projects
                         </a>
                         <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-outline">
                             <i class="fa-solid fa-download"></i> Download CV
                         </a>
                     </div>
-
-                    <div class="hero-stats">
-                        <div class="stat-card">
-                            <div class="stat-num">Live</div>
-                            <div class="stat-label">MIS Hub Deployed</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-num">6</div>
-                            <div class="stat-label">Core Pulses Tracked</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-num">240+</div>
-                            <div class="stat-label">IPGA Mandi Mappings</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-num">100%</div>
-                            <div class="stat-label">Data Accuracy Rate</div>
-                        </div>
-                    </div>
                 </div>
 
-                <div class="hero-card">
-                    <div class="card-badge"><i class="fa-solid fa-award"></i> Featured Designation & Systems</div>
-                    <div class="card-role">Junior Research Analyst</div>
-                    <p class="card-desc">
-                        Agnomics Analytics Lab (agAlabs) — Delivering daily & weekly commodity research while engineering specialized research team platforms and automated pipelines.
+                <div class="profile-summary-card">
+                    <span class="card-label"><i class="fa-solid fa-id-card"></i> Candidate Summary</span>
+                    <h2 class="candidate-name">Nishant Vishwakarma</h2>
+                    <div class="candidate-title">Junior Research Analyst — Commodity Markets & Agribusiness</div>
+                    <p class="candidate-bio">
+                        Working at Agnomics Analytics Lab (agAlabs), analyzing Indian and international pulse markets, standardizing IPGA daily market feeds, and transforming raw commodity data into actionable intelligence.
                     </p>
-                    <div class="card-features">
-                        <div class="feature-item">
-                            <i class="fa-solid fa-server" style="color: var(--accent-purple);"></i>
-                            <span><strong>Advanced Research MIS:</strong> Full-Stack Team Platform at <a href="http://168.144.28.192/" target="_blank" style="color: var(--accent-purple); font-weight:700;">168.144.28.192</a></span>
+                    
+                    <div class="fact-grid">
+                        <div class="fact-item">
+                            <strong>Pulses Focus</strong>
+                            <span>Core Research Domain</span>
                         </div>
-                        <div class="feature-item">
-                            <i class="fa-solid fa-check-circle"></i>
-                            <span><strong>IPGA Pipelines:</strong> Daily price CSV entity mapping & conversion</span>
+                        <div class="fact-item">
+                            <strong>IPGA Pipelines</strong>
+                            <span>Daily Price Conversion</span>
                         </div>
-                        <div class="feature-item">
-                            <i class="fa-solid fa-check-circle"></i>
-                            <span><strong>Commodity Coverage:</strong> Chana, Tur, Urad, Moong, Masur & Pea</span>
+                        <div class="fact-item">
+                            <strong>MBA Agribusiness</strong>
+                            <span>JNKVV Jabalpur</span>
                         </div>
-                        <div class="feature-item">
-                            <i class="fa-solid fa-check-circle"></i>
-                            <span><strong>Analytics Stack:</strong> Node.js, Socket.IO, PDF.js, Excel VBA, Power BI</span>
+                        <div class="fact-item">
+                            <strong>Full Stack MIS</strong>
+                            <span>Research Team Hub</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Advanced Research Team MIS Section (NEW FEATURED SYSTEM) -->
-        <section id="mis-hub" class="mis-section">
+        <!-- About Me Section -->
+        <section id="about">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag mis-badge"><i class="fa-solid fa-desktop"></i> Full-Stack System Creator</span>
-                    <h2 class="section-title">Advanced Research Team MIS System</h2>
+                    <span class="section-tag"><i class="fa-solid fa-user"></i> Professional Identity</span>
+                    <h2 class="section-title">About Me & Analytical Approach</h2>
                     <p class="section-desc">
-                        Designed, developed, and deployed a live Management Information System (MIS) hosted at 
-                        <a href="http://168.144.28.192/" target="_blank" style="color: var(--accent-purple); font-weight:700;">http://168.144.28.192/</a> to streamline research operations, task tracking, PDF report analysis, and team collaboration.
+                        Agriculture is my foundation; commodity research, data engineering, and market intelligence are the capabilities I have built around it.
                     </p>
                 </div>
 
-                <div class="mis-hero-grid">
-                    <div class="mis-box">
-                        <div class="mis-icon"><i class="fa-solid fa-diagram-project"></i></div>
-                        <h3>Task Tracking & Agile Kanban</h3>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3><i class="fa-solid fa-graduation-cap"></i> From Agriculture to Commodity Analytics</h3>
                         <p>
-                            Built an interactive Kanban board and task matrix tailored for research teams to manage daily commodity update assignments, report compilation pipelines, and market surveillance priorities.
+                            My academic background combines a B.Sc. in Agriculture with an MBA in Agri-Business Management. This foundation allows me to interpret agricultural commodities not only as crops in the field, but as complex physical markets shaped by weather, Kharif/Rabi sowing progress, mandi arrivals, government procurement (MSP), international trade flows (C&F/FOB), and tariff policies.
                         </p>
-                        <div class="ipga-tags">
-                            <span class="tag">Kanban Workflow</span>
-                            <span class="tag">Status Tracking</span>
-                            <span class="tag">Priority Badges</span>
-                        </div>
                     </div>
 
-                    <div class="mis-box">
-                        <div class="mis-icon"><i class="fa-solid fa-file-pdf"></i></div>
-                        <h3>MIS PDF Report Analyzer & Real-time Chat</h3>
+                    <div class="about-card">
+                        <h3><i class="fa-solid fa-sliders"></i> How I Approach Market Research & Data</h3>
                         <p>
-                            Integrated PDF.js for in-browser PDF research report parsing, coupled with Socket.IO real-time team communication and roster schedule management for multi-analyst workflows.
+                            I enjoy working with structured and changing agricultural datasets. My focus is on answering three core questions: <strong>What moved in the market, why did it change, and what does it mean for supply-demand fundamentals?</strong> I clean, validate, and convert fragmented daily market information into clear decision-support insights for research teams and hiring managers.
                         </p>
-                        <div class="ipga-tags">
-                            <span class="tag">PDF Report Parsing</span>
-                            <span class="tag">Socket.IO Real-time</span>
-                            <span class="tag">Roster Hub</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Interactive MIS Preview Widget -->
-                <div class="mis-preview-card">
-                    <div class="mis-preview-header">
-                        <div class="mis-title">
-                            <i class="fa-solid fa-laptop-code"></i>
-                            <span>MIS System Module Explorer (Interactive Demo)</span>
-                        </div>
-                        <div class="mis-nav-pills" id="misModuleNav">
-                            <button class="mis-pill active" data-module="kanban"><i class="fa-solid fa-columns"></i> Kanban Task Board</button>
-                            <button class="mis-pill" data-module="analyzer"><i class="fa-solid fa-file-invoice"></i> PDF Report Analyzer</button>
-                            <button class="mis-pill" data-module="roster"><i class="fa-solid fa-users"></i> Team Roster & Roles</button>
-                        </div>
-                    </div>
-
-                    <div class="mis-display-container" id="misModuleDisplay">
-                        <!-- Rendered via JavaScript -->
-                    </div>
-
-                    <div style="margin-top: 24px; text-align: center;">
-                        <a href="http://168.144.28.192/" target="_blank" class="btn btn-purple">
-                            <i class="fa-solid fa-external-link"></i> Launch Full Live MIS Application (http://168.144.28.192/)
-                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- IPGA Data Management & Daily Price Conversion Showcase -->
-        <section id="ipga-work" class="ipga-section">
+        <!-- Capabilities Section -->
+        <section id="capabilities" style="background: var(--bg-card-alt);">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-network-wired"></i> Automated Data Pipeline</span>
-                    <h2 class="section-title">IPGA Data Management & Daily Price CSV Conversion Sheet</h2>
+                    <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Skills Spectrum</span>
+                    <h2 class="section-title">Core Competencies I Bring To A Team</h2>
                     <p class="section-desc">
-                        Standardizing, entity-mapping, and automating daily price feeds from the <strong>India Pulses and Grains Association (IPGA)</strong> into structured, database-ready datasets.
+                        Capabilities developed through commodity research, agricultural field exposure, agribusiness education, and technical data management.
                     </p>
                 </div>
 
-                <div class="ipga-grid">
-                    <div class="ipga-box">
-                        <div class="ipga-icon"><i class="fa-solid fa-filter-circle-dollar"></i></div>
-                        <h3>The Data Challenge</h3>
-                        <p>
-                            Raw IPGA daily feeds contain varying unit formats (Rs/20kg, 50kg bags, trucks, $/MT, Kyats), regional mandi name spellings (e.g. Gulbarga vs Kalaburagi), and non-standard variety descriptions across domestic and international trade centers.
-                        </p>
-                        <div class="ipga-tags">
-                            <span class="tag">Unstructured Feeds</span>
-                            <span class="tag">Multi-Unit Noise</span>
-                            <span class="tag">Entity Mismatch</span>
-                        </div>
-                    </div>
-
-                    <div class="ipga-box">
-                        <div class="ipga-icon"><i class="fa-solid fa-gears"></i></div>
-                        <h3>The Automated Solution</h3>
-                        <p>
-                            Developed an automated <strong>Daily Price CSV Conversion Sheet</strong> using Excel, VBA, and Power Query that validates incoming feeds, maps local mandi names to standard database entities, normalizes rates to standard quintals/tonnes, and outputs clean CSV tables.
-                        </p>
-                        <div class="ipga-tags">
-                            <span class="tag">Excel & VBA Macro</span>
-                            <span class="tag">Mapping Matrix</span>
-                            <span class="tag">Validation Engine</span>
-                            <span class="tag">Database Ready</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Interactive Live IPGA Converter Demo -->
-                <div class="converter-card">
-                    <div class="converter-header">
-                        <div class="converter-title">
-                            <i class="fa-solid fa-terminal"></i>
-                            <span>Interactive IPGA Daily Price Normalizer & CSV Converter Demo</span>
-                        </div>
-                        <div class="sample-selector">
-                            <label for="sampleFeedSelect">Pre-loaded Feed Sample:</label>
-                            <select id="sampleFeedSelect">
-                                <option value="spot">Spot Prices (Domestic Mandis)</option>
-                                <option value="arrivals">Mandi Arrivals (Bags & Trucks)</option>
-                                <option value="cnf">International C&F Prices ($/MT)</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="converter-workspace">
-                        <div class="workspace-panel">
-                            <div class="panel-label">
-                                <span>Raw IPGA Input Feed</span>
-                                <span style="color: var(--primary);"><i class="fa-solid fa-code"></i> Input</span>
-                            </div>
-                            <textarea id="rawInputText" class="raw-input-box" spellcheck="false"></textarea>
-                            <div class="converter-actions">
-                                <button class="btn btn-primary" id="processBtn">
-                                    <i class="fa-solid fa-bolt"></i> Process & Standardize Data
-                                </button>
-                                <button class="btn btn-outline" id="downloadCsvBtn">
-                                    <i class="fa-solid fa-file-csv"></i> Download CSV
-                                </button>
-                            </div>
-                        </div>
-
-                        <div class="workspace-panel">
-                            <div class="panel-label">
-                                <span>Standardized Database Output Preview</span>
-                                <span id="conversionStatus" class="badge-status badge-mapped">Processed Successfully</span>
-                            </div>
-                            <div class="csv-table-wrapper">
-                                <table class="csv-preview" id="csvPreviewTable">
-                                    <thead>
-                                        <tr id="tableHeadRow"></tr>
-                                    </thead>
-                                    <tbody id="tableBody"></tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Pulses Commodity Intelligence Dashboard -->
-        <section id="research">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-chart-pie"></i> Commodity Analytics</span>
-                    <h2 class="section-title">Pulses Commodity Research Dashboard</h2>
-                    <p class="section-desc">
-                        Interactive market monitoring across 6 key pulses. Select a commodity to inspect live spot rates, mandi arrival volumes, international C&F import prices, and 7-day trend dynamics.
-                    </p>
-                </div>
-
-                <div class="pulse-nav-tabs" id="commodityTabs">
-                    <button class="tab-btn active" data-commodity="chana"><i class="fa-solid fa-bowl-rice"></i> Chana (Bengal Gram)</button>
-                    <button class="tab-btn" data-commodity="tur"><i class="fa-solid fa-wheat-awn-circle-exclamation"></i> Tur (Pigeon Pea)</button>
-                    <button class="tab-btn" data-commodity="urad"><i class="fa-solid fa-seedling"></i> Urad (Black Matpe)</button>
-                    <button class="tab-btn" data-commodity="moong"><i class="fa-solid fa-plant-wilt"></i> Moong (Green Gram)</button>
-                    <button class="tab-btn" data-commodity="masoor"><i class="fa-solid fa-leaf"></i> Masur (Lentil)</button>
-                    <button class="tab-btn" data-commodity="pea"><i class="fa-solid fa-cubes-stacked"></i> Yellow/Green Pea</button>
-                </div>
-
-                <div class="dashboard-grid">
-                    <div class="dash-card">
-                        <div class="dash-card-header">
-                            <div class="dash-card-title">
-                                <i class="fa-solid fa-tags"></i>
-                                <span id="dashCommodityTitle">Chana Spot & C&F Price Trends</span>
-                            </div>
-                            <span class="tag" id="dashCommodityBadge">Domestic + Global</span>
-                        </div>
-
-                        <div class="price-stats-list" id="priceStatsContainer"></div>
-                    </div>
-
-                    <div class="dash-card">
-                        <div class="dash-card-header">
-                            <div class="dash-card-title">
-                                <i class="fa-solid fa-chart-area"></i>
-                                <span>Weekly Price Movement (Rs/100kg)</span>
-                            </div>
-                            <span class="tag" style="color: var(--primary);"><i class="fa-solid fa-clock"></i> 7-Day Trend</span>
-                        </div>
-
-                        <div style="position: relative; height: 260px; width: 100%;">
-                            <canvas id="commodityChart"></canvas>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Capabilities -->
-        <section id="capabilities" class="ipga-section">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Core Capabilities</span>
-                    <h2 class="section-title">What I Bring To The Table</h2>
-                    <p class="section-desc">
-                        A combined spectrum of agricultural domain mastery, full-stack MIS platform engineering, automated data pipelines, and agribusiness strategy.
-                    </p>
-                </div>
-
-                <div class="capabilities-grid">
-                    <div class="cap-card">
+                <div class="cap-grid">
+                    <div class="cap-box">
                         <div class="cap-num">01 · COMMODITY RESEARCH</div>
                         <h3>Market Fundamentals</h3>
-                        <p>Supply-demand balance sheet modeling, mandi arrivals, buffer stocks, import dependency, and policy assessments (MSP & tariff changes).</p>
+                        <p>Analyse price behaviour using supply-demand balance sheets, mandi arrivals, buffer stocks, import dependency, and government procurement policies.</p>
                     </div>
 
-                    <div class="cap-card">
-                        <div class="cap-num">02 · FULL-STACK MIS CREATOR</div>
-                        <h3>Advanced Research MIS Hub</h3>
-                        <p>Architected the live Research Team MIS Hub (<a href="http://168.144.28.192/" target="_blank" style="color: var(--primary);">168.144.28.192</a>) equipped with Kanban task tracking, Socket.IO chat, and PDF parsing.</p>
+                    <div class="cap-box">
+                        <div class="cap-num">02 · DATA MANAGEMENT</div>
+                        <h3>IPGA Feeds & Pipeline Automation</h3>
+                        <p>Build VBA macros, Power Query workflows, and Python data scripts to clean, map, and standardize raw daily price feeds from IPGA into database schemas.</p>
                     </div>
 
-                    <div class="cap-card">
-                        <div class="cap-num">03 · DATA PIPELINES</div>
-                        <h3>IPGA CSV Automation</h3>
-                        <p>VBA macros, Power Query workflows, and Python scripts converting raw heterogeneous IPGA price feeds into clean database schemas.</p>
+                    <div class="cap-box">
+                        <div class="cap-num">03 · MARKET INTELLIGENCE</div>
+                        <h3>Indian & Global Origins</h3>
+                        <p>Track domestic spot prices (Solapur, Delhi, Jaipur, Akola), imported markets, international CNF/FOB rates (Myanmar, Australia, Canada, Russia), and trade drivers.</p>
                     </div>
 
-                    <div class="cap-card">
+                    <div class="cap-box">
                         <div class="cap-num">04 · BUSINESS INTELLIGENCE</div>
-                        <h3>Power BI & Visualization</h3>
-                        <p>Designing executive dashboards, Pulses Daily Digest, Weekly Update reports, and commodity price forecasting tools.</p>
+                        <h3>Power BI & Analytics</h3>
+                        <p>Utilize Excel, Power BI dashboards, and custom MIS web applications to convert complex market figures into executive reports and visualization tools.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience & Education -->
+        <!-- Selected Projects (Candidate Work Showcase) -->
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Candidate Evidence</span>
+                    <h2 class="section-title">Selected Projects & Research Work</h2>
+                    <p class="section-desc">
+                        These projects demonstrate my technical capabilities, data discipline, and agribusiness problem-solving skills.
+                    </p>
+                </div>
+
+                <!-- Project 01: IPGA Data Management -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-num">PROJECT 01 · DATA MANAGEMENT & AUTOMATION</div>
+                            <h3 class="project-title">IPGA Daily Price CSV Conversion Workflow</h3>
+                        </div>
+                        <span class="tag" style="color: var(--primary);"><i class="fa-solid fa-check-circle"></i> Excel / VBA / Data Engineering</span>
+                    </div>
+                    <p class="project-desc">
+                        Engineered an automated data management workflow for daily market price feeds from the <strong>India Pulses and Grains Association (IPGA)</strong>. The system normalizes heterogeneous input feeds into clean, validated CSV datasets ready for database ingestion and research reporting.
+                    </p>
+
+                    <div class="project-details-grid">
+                        <div class="detail-box">
+                            <h4>The Problem</h4>
+                            <p>Raw IPGA feeds contained inconsistent regional mandi spellings (e.g. Gulbarga vs Kalaburagi), mixed trade units (Rs/20kg, 50kg bags, trucks, $/MT), and non-standard variety names.</p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>The Solution</h4>
+                            <p>Built an entity mapping matrix and VBA macro validation engine that automatically converts unit weights to standard quintals/tonnes and standardizes location/variety names.</p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>The Outcome</h4>
+                            <p>Reduced daily report preparation time, eliminated entity duplication errors, and output standardized CSV tables for Spot Rates, Arrivals, and C&F Prices.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-tags">
+                        <span class="tag">IPGA Feeds</span>
+                        <span class="tag">Excel VBA Macros</span>
+                        <span class="tag">Entity Normalization</span>
+                        <span class="tag">Validation Engine</span>
+                        <span class="tag">Database CSV Output</span>
+                    </div>
+                </div>
+
+                <!-- Project 02: Advanced Research MIS System -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-num">PROJECT 02 · FULL-STACK MIS SYSTEM</div>
+                            <h3 class="project-title">Advanced Research Team MIS System (http://168.144.28.192/)</h3>
+                        </div>
+                        <span class="tag" style="color: var(--accent-purple);"><i class="fa-solid fa-server"></i> Live Systems Development</span>
+                    </div>
+                    <p class="project-desc">
+                        Designed, developed, and deployed a live Management Information System (MIS) hosted at <a href="http://168.144.28.192/" target="_blank" style="color: var(--accent-purple); text-decoration: underline; font-weight:700;">http://168.144.28.192/</a> tailored for research team management, task tracking, PDF report analysis, and multi-analyst roster coordination.
+                    </p>
+
+                    <div class="project-details-grid">
+                        <div class="detail-box">
+                            <h4>Agile Task & Kanban Board</h4>
+                            <p>Implemented an interactive task board to organize daily commodity surveillance assignments, weekly report compilation, and research deadlines.</p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>PDF Report Analyzer</h4>
+                            <p>Integrated PDF.js in-browser parsing for quick review and text extraction from commodity research reports and government policy releases.</p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>Team Hub & Communication</h4>
+                            <p>Features Socket.IO real-time team messaging, roster schedule management, notification alerts, and role-based admin controls.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Socket.IO</span>
+                        <span class="tag">PDF.js Parser</span>
+                        <span class="tag">Kanban Task Board</span>
+                        <span class="tag">Roster Hub</span>
+                        <span class="tag">Live at 168.144.28.192</span>
+                    </div>
+                </div>
+
+                <!-- Project 03: Pulses Commodity Intelligence -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <div class="project-num">PROJECT 03 · COMMODITY RESEARCH</div>
+                            <h3 class="project-title">Pulses Market Intelligence & Research Reports</h3>
+                        </div>
+                        <span class="tag" style="color: var(--accent-gold);"><i class="fa-solid fa-chart-line"></i> Pulses Research & Intelligence</span>
+                    </div>
+                    <p class="project-desc">
+                        Authoring daily market digests and weekly analytical reports covering 6 major pulse commodities: <strong>Chana (Bengal Gram), Tur (Pigeon Pea), Urad (Black Matpe), Moong (Green Gram), Masur (Lentil), and Yellow/Green Pea</strong>.
+                    </p>
+
+                    <div class="project-details-grid">
+                        <div class="detail-box">
+                            <h4>Pulses Daily Digest</h4>
+                            <p>Monitors daily price movements across domestic spot markets, mandi arrivals, international CNF quotations, and spot changes in origin markets (Myanmar, Australia, Canada, Russia).</p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>Pulses Weekly Update</h4>
+                            <p>Evaluates week-over-week (WoW) and month-over-month (MoM) price trends against fundamental drivers, Kharif/Rabi sowing progress, weather conditions, and government stock levels.</p>
+                        </div>
+                        <div class="detail-box">
+                            <h4>Trade & Import Tracking</h4>
+                            <p>Tracks international FOB/CNF vessel shipments, tariff policies (0% import duty on Tur/Urad/Masur), landed cost parities, and commodity substitution dynamics.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-tags">
+                        <span class="tag">Chana</span>
+                        <span class="tag">Tur</span>
+                        <span class="tag">Urad</span>
+                        <span class="tag">Moong</span>
+                        <span class="tag">Masur</span>
+                        <span class="tag">Yellow Pea</span>
+                        <span class="tag">Mandi Arrivals</span>
+                        <span class="tag">CNF / FOB International Trade</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strengths I Bring Section -->
+        <section id="strengths" style="background: var(--bg-card-alt);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-star"></i> Candidate Strengths</span>
+                    <h2 class="section-title">Strengths I Bring To Your Organization</h2>
+                    <p class="section-desc">
+                        A combination of domain knowledge, analytical discipline, technical data capability, and practical agricultural exposure.
+                    </p>
+                </div>
+
+                <div class="strengths-grid">
+                    <div class="strength-card">
+                        <h3><i class="fa-solid fa-seedling"></i> Agriculture Domain Knowledge</h3>
+                        <p>Strong foundation in crop science, agricultural production systems, sowing cycles, and agribusiness market dynamics.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <h3><i class="fa-solid fa-chart-line"></i> Commodity Thinking</h3>
+                        <p>Ability to connect weather risks, production estimates, mandi arrivals, international trade flows, and government policy with price behaviour.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Research Discipline</h3>
+                        <p>Comfortable analyzing complex information, checking data integrity across origins, and synthesizing structured analytical conclusions.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <h3><i class="fa-solid fa-database"></i> Data & Technical Orientation</h3>
+                        <p>Hands-on experience with Excel VBA automation, Power BI dashboards, Power Query workflows, Python scripting, and full-stack MIS development.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <h3><i class="fa-solid fa-users-viewfinder"></i> Field-Level Understanding</h3>
+                        <p>Direct exposure interacting with farmers, distributors, and retailers during field advisory roles provides practical context to market data.</p>
+                    </div>
+
+                    <div class="strength-card">
+                        <h3><i class="fa-solid fa-briefcase"></i> Commercial Perspective</h3>
+                        <p>MBA in Agri-Business Management developed my understanding of agribusiness supply chains, trade economics, and strategic decision support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Section -->
         <section id="experience">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-user-graduate"></i> Career Track</span>
-                    <h2 class="section-title">Professional Journey</h2>
+                    <span class="section-tag"><i class="fa-solid fa-user-tie"></i> Background & Education</span>
+                    <h2 class="section-title">Career Experience & Academic Track</h2>
                     <p class="section-desc">
-                        Combining ground-level agricultural exposure with agribusiness education, full-stack MIS engineering, and commodity intelligence.
+                        A progressive career path built by combining agricultural science, field advisory, agribusiness management, and commodity research.
                     </p>
                 </div>
 
                 <div class="timeline-grid">
+                    <!-- Left: Work Experience -->
                     <div>
-                        <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
-                            <i class="fa-solid fa-building-user" style="color: var(--primary);"></i> Work Experience
+                        <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-building-user" style="color: var(--primary);"></i> Professional Experience
                         </h3>
 
                         <div class="timeline-track">
@@ -641,7 +568,7 @@
                                 <div class="timeline-role">Junior Research Analyst</div>
                                 <div class="timeline-company">Agnomics Analytics Lab (agAlabs)</div>
                                 <div class="timeline-desc">
-                                    Specializing in pulse commodity research across Indian and international origins. Engineering automated <strong>IPGA daily price CSV conversion sheet workflows</strong> and creator of the <strong>Advanced Research Team MIS Hub</strong> (<a href="http://168.144.28.192/" target="_blank" style="color: var(--primary);">http://168.144.28.192/</a>).
+                                    Specializing in pulse commodity research across Indian and global origins. Standardize daily <strong>IPGA market price data feeds</strong>, manage database CSV transformation pipelines, and author daily & weekly commodity research publications. Built the <strong>Advanced Research Team MIS System</strong> (<a href="http://168.144.28.192/" target="_blank" style="color: var(--primary);">168.144.28.192</a>).
                                 </div>
                             </div>
 
@@ -650,7 +577,7 @@
                                 <div class="timeline-role">Crop Advisor</div>
                                 <div class="timeline-company">Insecticides India Ltd.</div>
                                 <div class="timeline-desc">
-                                    Gained hands-on agricultural field understanding, engaging with farmers, crop advisory, distributor channels, and regional market intelligence.
+                                    Gained hands-on agricultural field exposure, providing agronomic advisory to farmers and managing retailer/distributor channel networks.
                                 </div>
                             </div>
 
@@ -659,15 +586,16 @@
                                 <div class="timeline-role">Marketing Intern</div>
                                 <div class="timeline-company">Syngenta India</div>
                                 <div class="timeline-desc">
-                                    Conducted agricultural market research, competitor landscape mapping, product intelligence, and farmer survey analysis.
+                                    Conducted agricultural market research, competitor landscape mapping, product intelligence, and farmer feedback assessments.
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Right: Education & Academic Path -->
                     <div>
-                        <h3 style="font-size: 1.4rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
-                            <i class="fa-solid fa-graduation-cap" style="color: var(--primary);"></i> Education & Academic Track
+                        <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-graduation-cap" style="color: var(--primary);"></i> Academic Foundation
                         </h3>
 
                         <div class="edu-card">
@@ -682,62 +610,53 @@
                             <p>AKS University, Satna</p>
                         </div>
 
-                        <div class="special-note">
-                            <h4><i class="fa-solid fa-lightbulb"></i> Academic Journey Note — Agroforestry at BHU</h4>
+                        <div class="bhu-note">
+                            <h4><i class="fa-solid fa-compass"></i> Academic Journey — Agroforestry at BHU</h4>
                             <p>
-                                Pursued Agroforestry at Banaras Hindu University (BHU) before making a conscious choice to transition to MBA Agri-Business Management to specialize in commodity markets, price analytics, and applied agribusiness research.
+                                I also pursued <strong>Agroforestry at Banaras Hindu University (BHU)</strong>. I chose to discontinue that programme and pursue an MBA in Agri-Business Management to move closer to my core interest in agricultural markets, commodities, business decision support, and applied research analytics.
                             </p>
                         </div>
 
-                        <h3 style="font-size: 1.25rem; font-weight: 800; margin: 32px 0 16px;">Tools & Technical Skills</h3>
-                        
-                        <div class="skills-filter">
-                            <button class="filter-btn active" data-filter="all">All</button>
-                            <button class="filter-btn" data-filter="analytics">Analytics</button>
-                            <button class="filter-btn" data-filter="systems">MIS & Full-Stack</button>
-                            <button class="filter-btn" data-filter="data">Data Pipelines</button>
-                            <button class="filter-btn" data-filter="domain">Agribusiness</button>
-                        </div>
-
-                        <div class="skills-grid" id="skillsContainer">
-                            <div class="skill-pill" data-cat="systems"><i class="fa-solid fa-atom"></i> Full-Stack MIS (Node.js/Socket.IO)</div>
-                            <div class="skill-pill" data-cat="analytics"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</div>
-                            <div class="skill-pill" data-cat="analytics"><i class="fa-solid fa-chart-simple"></i> Power BI</div>
-                            <div class="skill-pill" data-cat="data"><i class="fa-solid fa-database"></i> Power Query</div>
-                            <div class="skill-pill" data-cat="data"><i class="fa-solid fa-code"></i> Excel VBA</div>
-                            <div class="skill-pill" data-cat="data"><i class="fa-brands fa-python"></i> Python Data Scripts</div>
-                            <div class="skill-pill" data-cat="data"><i class="fa-solid fa-table"></i> IPGA CSV Pipelines</div>
-                            <div class="skill-pill" data-cat="domain"><i class="fa-solid fa-wheat-awn"></i> Pulses Research</div>
-                            <div class="skill-pill" data-cat="domain"><i class="fa-solid fa-globe"></i> International Trade (C&F/FOB)</div>
-                            <div class="skill-pill" data-cat="domain"><i class="fa-solid fa-hand-holding-dollar"></i> Price Forecasting</div>
+                        <h3 style="font-size: 1.2rem; font-weight: 800; margin: 32px 0 16px;">Tools & Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-pill"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</div>
+                            <div class="skill-pill"><i class="fa-solid fa-chart-simple"></i> Power BI</div>
+                            <div class="skill-pill"><i class="fa-solid fa-database"></i> Power Query</div>
+                            <div class="skill-pill"><i class="fa-solid fa-code"></i> Excel VBA Macros</div>
+                            <div class="skill-pill"><i class="fa-brands fa-python"></i> Python Data Analysis</div>
+                            <div class="skill-pill"><i class="fa-solid fa-square-poll-vertical"></i> R Scripting</div>
+                            <div class="skill-pill"><i class="fa-solid fa-table"></i> IPGA CSV Pipelines</div>
+                            <div class="skill-pill"><i class="fa-solid fa-atom"></i> Full-Stack MIS (Node.js/Socket.IO)</div>
+                            <div class="skill-pill"><i class="fa-solid fa-wheat-awn"></i> Pulses Commodity Research</div>
+                            <div class="skill-pill"><i class="fa-solid fa-globe"></i> International Trade (C&F/FOB)</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- Recruiter Contact Section -->
         <section id="contact">
             <div class="container">
                 <div class="contact-card">
-                    <span class="section-tag"><i class="fa-solid fa-handshake"></i> Recruiter & Professional Outreach</span>
-                    <h2>Let's discuss agribusiness, IPGA pipelines, MIS systems, and market intelligence.</h2>
+                    <span class="section-tag"><i class="fa-solid fa-handshake"></i> Recruiter Outreach</span>
+                    <h2>Looking to contribute to research, commodity markets & agribusiness teams.</h2>
                     <p>
-                        I am actively seeking opportunities where agricultural domain mastery, IPGA data engineering, full-stack MIS creation, and commodity research can drive impactful results.
+                        I am interested in opportunities where agricultural domain knowledge, IPGA data engineering, commodity research discipline, and technical analytics can solve real business and market questions.
                     </p>
                     
                     <div class="contact-buttons">
                         <a href="mailto:vnishant41@gmail.com" class="btn btn-primary">
                             <i class="fa-solid fa-envelope"></i> vnishant41@gmail.com
                         </a>
-                        <a href="http://168.144.28.192/" target="_blank" rel="noopener" class="btn btn-purple">
-                            <i class="fa-solid fa-external-link"></i> Live MIS System
-                        </a>
                         <a href="https://www.linkedin.com/in/nishant-vishwakarma-/" target="_blank" rel="noopener" class="btn btn-outline">
-                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
                         </a>
                         <a href="https://github.com/vnishant41" target="_blank" rel="noopener" class="btn btn-outline">
-                            <i class="fa-brands fa-github"></i> GitHub
+                            <i class="fa-brands fa-github"></i> GitHub Profile
+                        </a>
+                        <a href="http://168.144.28.192/" target="_blank" rel="noopener" class="btn btn-outline">
+                            <i class="fa-solid fa-external-link"></i> Live MIS Application
                         </a>
                         <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-outline">
                             <i class="fa-solid fa-file-pdf"></i> Download Resume
@@ -752,371 +671,22 @@
     <!-- Footer -->
     <footer>
         <div class="container footer-inner">
-            <span>© 2026 Nishant Vishwakarma. Built for Agribusiness & MIS Engineering Excellence.</span>
-            <span>Live GitHub Pages: <a href="https://vnishant41.github.io" style="color: var(--primary);">vnishant41.github.io</a></span>
+            <span>© 2026 Nishant Vishwakarma. Professional Recruiter Portfolio.</span>
+            <span>GitHub Pages: <a href="https://vnishant41.github.io" style="color: var(--primary);">vnishant41.github.io</a></span>
         </div>
     </footer>
 
-    <!-- JavaScript Interactivity -->
+    <!-- Interactivity Script -->
     <script>
         // Theme Switcher
         const themeToggleBtn = document.getElementById('themeToggle');
         const htmlElement = document.documentElement;
+        
         themeToggleBtn.addEventListener('click', () => {
             const currentTheme = htmlElement.getAttribute('data-theme');
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
             htmlElement.setAttribute('data-theme', newTheme);
             themeToggleBtn.innerHTML = newTheme === 'dark' ? '<i class="fa-solid fa-moon"></i>' : '<i class="fa-solid fa-sun"></i>';
-        });
-
-        // --- MIS Interactive Preview Module Logic ---
-        const misModuleNav = document.querySelectorAll('#misModuleNav .mis-pill');
-        const misModuleDisplay = document.getElementById('misModuleDisplay');
-
-        const misModules = {
-            kanban: `
-                <div class="kanban-grid">
-                    <div class="kanban-col">
-                        <h4><span>Backlog</span> <span class="tag">2 Tasks</span></h4>
-                        <div class="kanban-card">
-                            <strong>Global Yellow Pea Import Tariffs</strong>
-                            <span>Assigned to: Nishant · Russia/Canada</span>
-                        </div>
-                        <div class="kanban-card">
-                            <strong>Rabi Sowing Acreage Comparison</strong>
-                            <span>Assigned to: Research Team · JNKVV Data</span>
-                        </div>
-                    </div>
-                    <div class="kanban-col">
-                        <h4><span>In Progress</span> <span class="tag" style="color:var(--accent-purple);">1 Active</span></h4>
-                        <div class="kanban-card" style="border-left: 3px solid var(--accent-purple);">
-                            <strong>IPGA Daily Mandi Conversion Sheet</strong>
-                            <span>Assigned to: Nishant · Automation Ingest</span>
-                        </div>
-                    </div>
-                    <div class="kanban-col">
-                        <h4><span>Completed</span> <span class="tag" style="color:var(--primary);">3 Done</span></h4>
-                        <div class="kanban-card">
-                            <strong>Pulses Daily Digest 2026-08-10</strong>
-                            <span>Status: Published to Executive Portal</span>
-                        </div>
-                        <div class="kanban-card">
-                            <strong>Weekly Tur Spot & CNF Trend Report</strong>
-                            <span>Status: Verified & Standardized</span>
-                        </div>
-                    </div>
-                </div>
-            `,
-            analyzer: `
-                <div style="display: flex; flex-direction: column; gap: 14px;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; background: var(--bg-card); padding: 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
-                        <div>
-                            <strong style="display: block; font-size: 0.95rem;"><i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i> Pulses_Daily_Digest_2026_08_10.pdf</strong>
-                            <span style="font-size: 0.78rem; color: var(--text-dim);">3.52 MB · Processed via PDF.js Parser Engine</span>
-                        </div>
-                        <span class="badge-status badge-mapped">Parsed Successfully</span>
-                    </div>
-                    <div style="background: var(--bg-card); padding: 16px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); font-size: 0.85rem; color: var(--text-muted);">
-                        <strong style="color: var(--text-main); display: block; margin-bottom: 6px;">Key Extracted Insights:</strong>
-                        <ul style="padding-left: 20px; line-height: 1.6;">
-                            <li>Chana Delhi Spot rate closed at ₹6,275/100kg (+1.2% WoW).</li>
-                            <li>Myanmar CNF Urad FAQ quotation holding at $910/MT (July-Aug shipment).</li>
-                            <li>Solapur Tur Pink arrivals recorded at 120 bags (approx 6.0 MT).</li>
-                        </ul>
-                    </div>
-                </div>
-            `,
-            roster: `
-                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;">
-                    <div style="background: var(--bg-card); padding: 16px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
-                        <strong style="display: block; font-size: 0.95rem;">Nishant Vishwakarma</strong>
-                        <span style="font-size: 0.78rem; color: var(--accent-purple); display: block; margin-bottom: 8px;">Junior Research Analyst & Creator</span>
-                        <span class="tag">Pulses & IPGA Pipelines</span>
-                    </div>
-                    <div style="background: var(--bg-card); padding: 16px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
-                        <strong style="display: block; font-size: 0.95rem;">Commodity Analyst Team</strong>
-                        <span style="font-size: 0.78rem; color: var(--primary); display: block; margin-bottom: 8px;">Research Hub Operations</span>
-                        <span class="tag">Daily Surveillance</span>
-                    </div>
-                    <div style="background: var(--bg-card); padding: 16px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
-                        <strong style="display: block; font-size: 0.95rem;">Data Operations</strong>
-                        <span style="font-size: 0.78rem; color: var(--accent-gold); display: block; margin-bottom: 8px;">Database Ingestion</span>
-                        <span class="tag">Live Monitoring</span>
-                    </div>
-                </div>
-            `
-        };
-
-        misModuleNav.forEach(btn => {
-            btn.addEventListener('click', () => {
-                misModuleNav.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                const mod = btn.getAttribute('data-module');
-                misModuleDisplay.innerHTML = misModules[mod] || '';
-            });
-        });
-
-        // Initialize MIS Module Display
-        misModuleDisplay.innerHTML = misModules.kanban;
-
-        // --- IPGA Daily Price Converter Samples ---
-        const ipgaSamples = {
-            spot: [
-                { date: "2026-08-01", rawComm: "Chickpea (Chana)", dbComm: "Bengal Gram", location: "Delhi", rawUnit: "Rs/100kg", dbUnit: "Rs/100kg", variety: "Rajasthan Line", rate: 6275, val: 6300, status: "Mapped" },
-                { date: "2026-08-01", rawComm: "Chickpea (Chana)", dbComm: "Bengal Gram", location: "Solapur", rawUnit: "Rs/20Kg", dbUnit: "Rs/100kg", variety: "Annagiri", rate: 1250, val: 6250, status: "Converted" },
-                { date: "2026-08-01", rawComm: "Pigeon Pea (Tur)", dbComm: "Tur", location: "Solapur", rawUnit: "Rs/100kg", dbUnit: "Rs/100kg", variety: "New:Pink", rate: 7400, val: 8300, status: "Mapped" },
-                { date: "2026-08-01", rawComm: "Lentil (Masoor)", dbComm: "Masoor", location: "Delhi", rawUnit: "Rs/100kg", dbUnit: "Rs/100kg", variety: "Desi", rate: 6800, val: 6800, status: "Mapped" },
-                { date: "2026-08-01", rawComm: "Green Gram (Moong)", dbComm: "Moong", location: "Jaipur", rawUnit: "Rs/100kg", dbUnit: "Rs/100kg", variety: "Chamki", rate: 7400, val: 7400, status: "Mapped" }
-            ],
-            arrivals: [
-                { date: "2026-08-01", rawComm: "Chickpea (Chana)", dbComm: "Bengal Gram", variety: "Rajasthan Line", market: "Delhi", state: "Delhi", val: 275, rawUnit: "Bags (100kg)", dbUnit: "Quintals", status: "Converted" },
-                { date: "2026-08-01", rawComm: "Pigeon Pea (Tur)", dbComm: "Tur", variety: "Maruti", market: "Amravati", state: "Maharashtra", val: 400, rawUnit: "Bags (50kg)", dbUnit: "Quintals", status: "Converted" },
-                { date: "2026-08-01", rawComm: "Chickpea (Chana)", dbComm: "Bengal Gram", variety: "Desi", market: "Akola", state: "Maharashtra", val: 2, rawUnit: "TRUCK (25 MT)", dbUnit: "Quintals", status: "Converted" },
-                { date: "2026-08-01", rawComm: "Pigeon Pea (Tur)", dbComm: "Tur", variety: "Pink", market: "Solapur", state: "Maharashtra", val: 120, rawUnit: "Bags (50kg)", dbUnit: "Quintals", status: "Converted" }
-            ],
-            cnf: [
-                { date: "2026-08-01", dbComm: "Tur", minPrice: 850, maxPrice: 850, unit: "$/Tonne", origin: "Myanmar", shipStart: "July", shipEnd: "Aug", source: "IPGA", status: "Mapped" },
-                { date: "2026-08-01", dbComm: "Urad", minPrice: 910, maxPrice: 910, unit: "$/Tonne", origin: "Myanmar", shipStart: "July", shipEnd: "Aug", source: "IPGA", status: "Mapped" },
-                { date: "2026-08-01", dbComm: "Bengal Gram", minPrice: 630, maxPrice: 630, unit: "$/Tonne", origin: "Australia", shipStart: "Aug", shipEnd: "Sep", source: "IPGA", status: "Mapped" },
-                { date: "2026-08-01", dbComm: "Pea", minPrice: 325, maxPrice: 325, unit: "$/Tonne", origin: "Russia", shipStart: "July", shipEnd: "Aug", source: "IPGA", status: "Mapped" },
-                { date: "2026-08-01", dbComm: "Masoor", minPrice: 540, maxPrice: 540, unit: "$/Tonne", origin: "Canada", shipStart: "Oct", shipEnd: "Nov", source: "IPGA", status: "Mapped" }
-            ]
-        };
-
-        const sampleFeedSelect = document.getElementById('sampleFeedSelect');
-        const rawInputText = document.getElementById('rawInputText');
-        const processBtn = document.getElementById('processBtn');
-        const downloadCsvBtn = document.getElementById('downloadCsvBtn');
-        const tableHeadRow = document.getElementById('tableHeadRow');
-        const tableBody = document.getElementById('tableBody');
-
-        function loadSampleText(type) {
-            if(type === 'spot') {
-                rawInputText.value = `Date,RawCommodity,MandiLocation,RawUnit,Variety,Rate\n2026-08-01,Chickpea (Chana),Delhi,Rs/100kg,Rajasthan Line,6275\n2026-08-01,Chickpea (Chana),Gulbarga,Rs/20Kg,Annagiri,1250\n2026-08-01,Pigeon Pea (Tur),Solapur,Rs/100kg,New:Pink,7400\n2026-08-01,Lentil (Masoor),Delhi,Rs/100kg,Desi,6800\n2026-08-01,Green Gram (Moong),Jaipur,Rs/100kg,Chamki,7400`;
-            } else if(type === 'arrivals') {
-                rawInputText.value = `Date,RawCommodity,Variety,MandiName,State,ArrivalQuantity,RawUnit\n2026-08-01,Chickpea (Chana),Rajasthan Line,Delhi,Delhi,275,Bags (100kg)\n2026-08-01,Pigeon Pea (Tur),Maruti,Amravati,Maharashtra,400,Bags (50kg)\n2026-08-01,Chickpea (Chana),Desi,Akola,Maharashtra,2,TRUCK (25 MT)\n2026-08-01,Pigeon Pea (Tur),Pink,Solapur,Maharashtra,120,Bags (50kg)`;
-            } else {
-                rawInputText.value = `Date,Commodity,MinPrice,MaxPrice,Unit,Origin,ShipmentPeriod\n2026-08-01,Tur,850,850,$/Tonne,Myanmar,July-Aug\n2026-08-01,Urad,910,910,$/Tonne,Myanmar,July-Aug\n2026-08-01,Bengal Gram,630,630,$/Tonne,Australia,Aug-Sep\n2026-08-01,Yellow Pea,325,325,$/Tonne,Russia,July-Aug\n2026-08-01,Masoor,540,540,$/Tonne,Canada,Oct-Nov`;
-            }
-            renderTable(type);
-        }
-
-        function renderTable(type) {
-            const data = ipgaSamples[type];
-            tableHeadRow.innerHTML = '';
-            tableBody.innerHTML = '';
-
-            if(!data || data.length === 0) return;
-
-            const headers = Object.keys(data[0]);
-            headers.forEach(h => {
-                const th = document.createElement('th');
-                th.textContent = h.toUpperCase();
-                tableHeadRow.appendChild(th);
-            });
-
-            data.forEach(row => {
-                const tr = document.createElement('tr');
-                headers.forEach(h => {
-                    const td = document.createElement('td');
-                    if(h === 'status') {
-                        td.innerHTML = `<span class="badge-status ${row[h] === 'Converted' ? 'badge-converted' : 'badge-mapped'}">${row[h]}</span>`;
-                    } else {
-                        td.textContent = row[h];
-                    }
-                    tr.appendChild(td);
-                });
-                tableBody.appendChild(tr);
-            });
-        }
-
-        sampleFeedSelect.addEventListener('change', (e) => loadSampleText(e.target.value));
-        processBtn.addEventListener('click', () => {
-            renderTable(sampleFeedSelect.value);
-            document.getElementById('conversionStatus').textContent = "Normalized & Validated";
-        });
-
-        downloadCsvBtn.addEventListener('click', () => {
-            const type = sampleFeedSelect.value;
-            const data = ipgaSamples[type];
-            if(!data) return;
-
-            const headers = Object.keys(data[0]).join(',');
-            const rows = data.map(r => Object.values(r).join(',')).join('\n');
-            const csvContent = "data:text/csv;charset=utf-8," + headers + "\n" + rows;
-            const encodedUri = encodeURI(csvContent);
-            const link = document.createElement("a");
-            link.setAttribute("href", encodedUri);
-            link.setAttribute("download", `IPGA_${type}_standardized_data.csv`);
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
-
-        // Initialize spot data
-        loadSampleText('spot');
-
-        // --- Pulse Commodity Intelligence Dashboard Data & Chart ---
-        const commodityData = {
-            chana: {
-                title: "Chana (Bengal Gram) Market Intelligence",
-                badge: "Domestic + Global Origin",
-                stats: [
-                    { name: "Delhi Spot (Rajasthan Line)", unit: "Rs/100kg", val: "₹6,275", trend: "+1.2% WoW", up: true },
-                    { name: "Solapur Spot (Annagiri)", unit: "Rs/100kg", val: "₹6,250", trend: "+0.8% WoW", up: true },
-                    { name: "Australia CNF Import (Aug-Sep)", unit: "$/Tonne", val: "$630", trend: "Stable", up: true },
-                    { name: "Myanmar Spot (Kyats/MT)", unit: "Local", val: "3,300,000", trend: "-0.5% WoW", up: false }
-                ],
-                chartData: [6150, 6180, 6200, 6240, 6230, 6260, 6275]
-            },
-            tur: {
-                title: "Tur (Pigeon Pea) Market Intelligence",
-                badge: "Domestic + Import Focus",
-                stats: [
-                    { name: "Solapur Spot (New Pink)", unit: "Rs/100kg", val: "₹7,400", trend: "+2.1% WoW", up: true },
-                    { name: "Amravati Spot (Maruti)", unit: "Rs/100kg", val: "₹7,250", trend: "+1.5% WoW", up: true },
-                    { name: "Myanmar CNF (Lemon Variety)", unit: "$/Tonne", val: "$850", trend: "+1.8% WoW", up: true },
-                    { name: "Import Duty Status", unit: "Policy", val: "0% Duty", trend: "Active", up: true }
-                ],
-                chartData: [7100, 7150, 7220, 7300, 7280, 7350, 7400]
-            },
-            urad: {
-                title: "Urad (Black Matpe) Market Intelligence",
-                badge: "Myanmar Origin Heavy",
-                stats: [
-                    { name: "Chennai CNF (FAQ Burma)", unit: "$/Tonne", val: "$910", trend: "-0.8% WoW", up: false },
-                    { name: "Myanmar FOB (SQ Variety)", unit: "$/Tonne", val: "$965", trend: "-0.5% WoW", up: false },
-                    { name: "Rajkot Mandi Spot", unit: "Rs/100kg", val: "₹7,800", trend: "Stable", up: true },
-                    { name: "Kharif Sowing Acreage", unit: "Lakh Ha", val: "31.2", trend: "+4.2% YoY", up: true }
-                ],
-                chartData: [7900, 7880, 7850, 7820, 7800, 7800, 7800]
-            },
-            moong: {
-                title: "Moong (Green Gram) Market Intelligence",
-                badge: "Domestic Crop Focus",
-                stats: [
-                    { name: "Jaipur Spot (Chamki)", unit: "Rs/100kg", val: "₹7,400", trend: "+0.5% WoW", up: true },
-                    { name: "Jaipur Spot (Desi Quality)", unit: "Rs/100kg", val: "₹6,700", trend: "Stable", up: true },
-                    { name: "Govt MSP (2025-26)", unit: "Rs/100kg", val: "₹8,558", trend: "Benchmark", up: true },
-                    { name: "Kharif Harvest Arrivals", unit: "Quintals", val: "Moderate", trend: "Normal", up: true }
-                ],
-                chartData: [7320, 7340, 7350, 7370, 7380, 7390, 7400]
-            },
-            masoor: {
-                title: "Masoor (Lentil) Market Intelligence",
-                badge: "Canada & Australia Origin",
-                stats: [
-                    { name: "Delhi Spot (Desi)", unit: "Rs/100kg", val: "₹6,800", trend: "-1.1% WoW", up: false },
-                    { name: "Canada CNF (Oct-Nov)", unit: "$/Tonne", val: "$540", trend: "-1.5% WoW", up: false },
-                    { name: "Australia CNF (Oct-Nov)", unit: "$/Tonne", val: "$560", trend: "-0.9% WoW", up: false },
-                    { name: "Domestic Stock Level", unit: "Buffer", val: "Comfortable", trend: "Adequate", up: true }
-                ],
-                chartData: [6950, 6920, 6900, 6880, 6850, 6820, 6800]
-            },
-            pea: {
-                title: "Yellow & Green Pea Market Intelligence",
-                badge: "Russia & Ukraine Imports",
-                stats: [
-                    { name: "Russia CNF (July-Aug)", unit: "$/Tonne", val: "$325", trend: "Stable", up: true },
-                    { name: "Ukraine CNF (July-Aug)", unit: "$/Tonne", val: "$325", trend: "Stable", up: true },
-                    { name: "Landed Cost (Mumbai Port)", unit: "Rs/100kg", val: "₹3,450", trend: "-0.4% WoW", up: false },
-                    { name: "Chana Substitution Index", unit: "Ratio", val: "High", trend: "Active", up: true }
-                ],
-                chartData: [3500, 3490, 3480, 3470, 3460, 3450, 3450]
-            }
-        };
-
-        const priceStatsContainer = document.getElementById('priceStatsContainer');
-        const dashCommodityTitle = document.getElementById('dashCommodityTitle');
-        const dashCommodityBadge = document.getElementById('dashCommodityBadge');
-        let chartInstance = null;
-
-        function updateDashboard(commKey) {
-            const data = commodityData[commKey];
-            if(!data) return;
-
-            dashCommodityTitle.textContent = data.title;
-            dashCommodityBadge.textContent = data.badge;
-
-            priceStatsContainer.innerHTML = '';
-            data.stats.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'price-row';
-                div.innerHTML = `
-                    <div class="price-info">
-                        <strong>${item.name}</strong>
-                        <span>${item.unit}</span>
-                    </div>
-                    <div class="price-val">
-                        <strong>${item.val}</strong>
-                        <span class="${item.up ? 'trend-up' : 'trend-down'}">${item.trend}</span>
-                    </div>
-                `;
-                priceStatsContainer.appendChild(div);
-            });
-
-            const ctx = document.getElementById('commodityChart').getContext('2d');
-            if(chartInstance) chartInstance.destroy();
-
-            const primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--primary').trim() || '#10b981';
-
-            chartInstance = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7'],
-                    datasets: [{
-                        label: 'Price Rate',
-                        data: data.chartData,
-                        borderColor: primaryColor,
-                        backgroundColor: 'rgba(16, 185, 129, 0.1)',
-                        borderWidth: 3,
-                        fill: true,
-                        tension: 0.35,
-                        pointRadius: 5,
-                        pointHoverRadius: 8
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { display: false } },
-                    scales: {
-                        x: { grid: { display: false }, ticks: { color: 'var(--text-dim)' } },
-                        y: { grid: { color: 'var(--border-color)' }, ticks: { color: 'var(--text-dim)' } }
-                    }
-                }
-            });
-        }
-
-        const commodityTabs = document.querySelectorAll('#commodityTabs .tab-btn');
-        commodityTabs.forEach(btn => {
-            btn.addEventListener('click', () => {
-                commodityTabs.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                updateDashboard(btn.getAttribute('data-commodity'));
-            });
-        });
-
-        updateDashboard('chana');
-
-        // Skills Filter
-        const filterBtns = document.querySelectorAll('.skills-filter .filter-btn');
-        const skillPills = document.querySelectorAll('#skillsContainer .skill-pill');
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-
-                const filter = btn.getAttribute('data-filter');
-                skillPills.forEach(pill => {
-                    if(filter === 'all' || pill.getAttribute('data-cat') === filter) {
-                        pill.style.display = 'flex';
-                    } else {
-                        pill.style.display = 'none';
-                    }
-                });
-            });
         });
     </script>
 </body>
