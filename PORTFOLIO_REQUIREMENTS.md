@@ -55,12 +55,11 @@
 - **Context**: Designed, engineered, and deployed a full-stack Management Information System hosted live at `http://168.144.28.192/`.
 - **Stack & Features**: Node.js, Socket.IO, PDF.js parser, Agile Kanban task board, multi-analyst roster hub, and real-time notification engine.
 
-### agAlabs Role Description:
-- **Pulses Analysis & Intelligence**: Conducted comprehensive analysis of pulse commodities in both Indian and international markets, generating insightful reports and market intelligence.
-- **Market Updates & Trends**: Authored commodity market updates, digests, and news articles on pulses, enhancing market awareness of industry trends and price drivers.
-- **Data-Driven Decision Making**: Leveraged expertise in Excel data modeling, quantitative price analytics, and agricultural research to support decision-making.
-- **Data Management Refinement**: Collaborated on data management optimization and pipeline refinement to structure raw market data feeds into standardized database frameworks.
-- **Technical Stack**: Python, R Scripting, Prompt Engineering, SQL, Microsoft Excel, Power BI, Power Query, Excel VBA, IPGA CSV Conversion Pipelines.
+### Junior Research Analyst Daily Role & Core Publications:
+- **Pulses Daily Digest (Daily Task)**: Authoring daily commodity research digests tracking domestic mandi spot rates, arrival volumes, international C&F import prices, and price movements across 6 pulse commodities (Chana, Tur, Urad, Moong, Masur, Yellow Pea).
+- **Pulses Weekly Update (Every Monday)**: Compiling comprehensive Monday weekly analytical reports evaluating WoW and MoM price volatility, Kharif/Rabi sowing progress, weather conditions, and supply-demand fundamentals.
+- **Market Intelligence & Reports**: Conducting fundamental analysis of pulse commodities across Indian and global origins to support data-driven decision making.
+- **Data Management Refinement**: Collaborating on data management optimization and pipeline refinement to structure raw market data feeds into standardized database frameworks.
 
 ---
 
