@@ -70,8 +70,8 @@
    - Navbar links should use concise text: `About`, `Capabilities`, `Projects`, `Strengths`, `Experience`, `Contact`.
    - Action items on the right (Theme Toggle, Download Resume, Email Me) must be vertically centered in `.nav-actions`.
 
-2. **Candidate Headshot Integration**:
-   - Display Nishant's candidate profile photo (`assets/nishant_profile.jpg`) prominently in the hero summary card with large 165px frame size, horizontally mirrored orientation, and clean left-aligned typography.
+2. **Candidate Profile Summary Integration**:
+   - Display Nishant's executive candidate profile summary card in the hero section with clean left-aligned typography.
 
 3. **Color System & Aesthetics**:
    - Executive light theme default (`#f5f8f6` background, `#ffffff` card, `#059669` emerald green, `#d97706` gold accent).
