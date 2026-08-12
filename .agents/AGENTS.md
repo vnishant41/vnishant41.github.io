@@ -72,8 +72,8 @@
    - Display Nishant's candidate profile photo (`assets/nishant_profile.png`) prominently in the hero summary card.
 
 3. **Color System & Aesthetics**:
-   - Executive dark theme default (`#0a1711` background, `#10241b` card, `#10b981` primary emerald green, `#d97706` gold accent).
-   - Clean Light Theme alternative with smooth CSS variable transitions.
+   - Executive light theme default (`#f5f8f6` background, `#ffffff` card, `#059669` emerald green, `#d97706` gold accent).
+   - Clean Executive Dark Theme alternative (`#0a1711` background, `#10241b` card) with smooth CSS variable transitions.
    - Corporate executive typography using Google Fonts `Plus Jakarta Sans` and `Inter`.
 
 4. **No Placeholders**:
