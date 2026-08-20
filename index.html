@@ -321,6 +321,27 @@
         footer { padding: 36px 0; color: var(--text-dim); font-size: 0.86rem; border-top: 1px solid var(--border-color); }
         .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
 
+        /* Mobile Navigation Drawer Styles */
+        .mobile-menu-btn { display: none; background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main); width: 38px; height: 38px; border-radius: 8px; cursor: pointer; align-items: center; justify-content: center; font-size: 1.1rem; transition: var(--transition); flex-shrink: 0; }
+        .mobile-menu-btn:hover { border-color: var(--primary); color: var(--primary); }
+
+        .mobile-nav-overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.65); backdrop-filter: blur(4px); z-index: 1998; opacity: 0; pointer-events: none; transition: opacity 0.3s ease; }
+        .mobile-nav-overlay.active { opacity: 1; pointer-events: auto; }
+
+        .mobile-nav-drawer { position: fixed; top: 0; right: -320px; width: min(300px, 85vw); height: 100vh; background: var(--bg-card); border-left: 1px solid var(--border-color); z-index: 1999; box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5); display: flex; flex-direction: column; transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1); overflow-y: auto; }
+        .mobile-nav-drawer.active { right: 0; }
+
+        .mobile-nav-header { display: flex; align-items: center; justify-content: space-between; padding: 20px 22px; border-bottom: 1px solid var(--border-color); }
+        .mobile-nav-title { font-size: 0.92rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 0.08em; }
+        .mobile-nav-close { background: transparent; border: none; color: var(--text-muted); font-size: 1.25rem; cursor: pointer; padding: 4px; }
+        .mobile-nav-close:hover { color: var(--primary); }
+
+        .mobile-nav-body { padding: 16px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+        .mobile-nav-link { display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-radius: 8px; font-size: 0.92rem; font-weight: 700; color: var(--text-main); transition: var(--transition); }
+        .mobile-nav-link i { width: 20px; text-align: center; color: var(--primary); }
+        .mobile-nav-link:hover, .mobile-nav-link:active { background: var(--tag-bg); color: var(--primary); }
+        .mobile-nav-footer { padding: 18px 20px 24px; border-top: 1px solid var(--border-color); }
+
         /* Responsive Breakpoints */
         @media (max-width: 1120px) {
             .pulses-commodity-grid { grid-template-columns: repeat(3, 1fr); }
@@ -331,25 +352,65 @@
             .dashboard-metrics-grid { grid-template-columns: repeat(2, 1fr); }
         }
         @media (max-width: 920px) {
-            .hero-grid { grid-template-columns: 1fr; }
+            .hero-grid { grid-template-columns: 1fr; gap: 36px; }
             .education-grid { grid-template-columns: 1fr; }
             .secondary-grid { grid-template-columns: 1fr; }
             .top-chips-row { justify-content: flex-start; }
             .nav-links { display: none; }
+            .mobile-menu-btn { display: flex; }
+            #navCvBtn { display: none; }
         }
         @media (max-width: 640px) {
-            .pulses-commodity-grid { grid-template-columns: repeat(2, 1fr); }
+            .container { padding: 0 16px; }
+            section { padding: 48px 0; }
+            .hero { padding: 48px 0 40px; }
+            
+            .section-title { font-size: 1.75rem; }
+            .hero-name { font-size: 2.15rem; }
+            .hero-role-title { font-size: 1.15rem; }
+            .hero-headline { font-size: 1.18rem; }
+            .hero-subtitle { font-size: 0.96rem; margin-bottom: 24px; }
+            
+            .hero-buttons { flex-direction: column; width: 100%; }
+            .hero-buttons .btn { width: 100%; min-height: 44px; }
+            
+            .career-profile-card { padding: 22px 16px; }
+            .career-profile-text { font-size: 0.98rem; }
+            .primary-coverage-box { padding: 22px 14px; }
+            .secondary-coverage-box { padding: 20px 14px; }
+            .research-work-card { padding: 22px 14px; }
+            .profile-photo-card { padding: 20px 14px; }
+            .contact-box { padding: 32px 16px; }
+            .contact-buttons { flex-direction: column; width: 100%; }
+            .contact-buttons .btn { width: 100%; min-height: 44px; }
+            
+            .pulses-commodity-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
             .pulse-dimensions-row { grid-template-columns: 1fr; }
             .why-grid { grid-template-columns: 1fr; }
             .capabilities-grid { grid-template-columns: 1fr; }
             .research-outputs-grid { grid-template-columns: 1fr; }
             .dashboard-metrics-grid { grid-template-columns: 1fr; }
+            
             .profile-badges-row { grid-template-columns: 1fr; }
             .publication-badge-box { grid-template-columns: 1fr; }
             .photo-wrapper { flex-direction: column; text-align: center; }
             .meta-list { align-items: center; }
-            .contact-box { padding: 36px 20px; }
-            section { padding: 60px 0; }
+            
+            .experience-timeline { padding-left: 20px; margin-left: 6px; gap: 26px; }
+            .exp-item::before { left: -27px; width: 12px; height: 12px; }
+            .exp-role { font-size: 1.18rem; }
+            
+            .pipeline-flow { padding: 12px 10px; gap: 8px; }
+            .pipeline-step { font-size: 0.78rem; }
+            .pipeline-arrow { display: none; }
+            
+            .progression-strip { padding: 14px 12px; gap: 8px; }
+            .prog-node { font-size: 0.78rem; padding: 6px 10px; }
+            .prog-arrow { font-size: 0.7rem; }
+            
+            .tool-pill { font-size: 0.8rem; padding: 10px 14px; }
+            .interest-badge { font-size: 0.82rem; padding: 8px 14px; }
+            #navEmailBtn { padding: 8px 12px; font-size: 0.8rem; }
         }
     </style>
 </head>
@@ -384,9 +445,39 @@
                 <a href="mailto:vnishant41@gmail.com" class="btn btn-primary" id="navEmailBtn">
                     <i class="fa-solid fa-envelope"></i> Email Me
                 </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" title="Open Menu" aria-label="Toggle navigation menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </div>
     </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <div class="mobile-nav-drawer" id="mobileNavDrawer">
+        <div class="mobile-nav-header">
+            <span class="mobile-nav-title">Menu Navigation</span>
+            <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="mobile-nav-body">
+            <a href="#about" class="mobile-nav-link"><i class="fa-solid fa-user-tie"></i> Career Profile</a>
+            <a href="#capabilities" class="mobile-nav-link"><i class="fa-solid fa-layer-group"></i> Capabilities</a>
+            <a href="#coverage" class="mobile-nav-link"><i class="fa-solid fa-scale-balanced"></i> Commodities</a>
+            <a href="#research" class="mobile-nav-link"><i class="fa-solid fa-folder-open"></i> Selected Research</a>
+            <a href="#data-systems" class="mobile-nav-link"><i class="fa-solid fa-chart-pie"></i> Data & Visualisation</a>
+            <a href="#experience" class="mobile-nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+            <a href="#education" class="mobile-nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+            <a href="#why-me" class="mobile-nav-link"><i class="fa-solid fa-star"></i> Why My Profile</a>
+            <a href="#tools" class="mobile-nav-link"><i class="fa-solid fa-screwdriver-wrench"></i> Technical Stack</a>
+            <a href="#interests" class="mobile-nav-link"><i class="fa-solid fa-bullseye"></i> Career Interests</a>
+            <a href="#contact" class="mobile-nav-link"><i class="fa-solid fa-handshake"></i> Contact</a>
+        </div>
+        <div class="mobile-nav-footer">
+            <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-primary" style="width: 100%;">
+                <i class="fa-solid fa-file-arrow-down"></i> Download CV
+            </a>
+        </div>
+    </div>
 
     <main id="top">
 
@@ -1321,7 +1412,7 @@
         </div>
     </footer>
 
-    <!-- Theme Toggle & Smooth Interaction Script -->
+    <!-- Theme Toggle, Mobile Menu & Smooth Interaction Script -->
     <script>
         const themeToggleBtn = document.getElementById('themeToggle');
         const htmlElement = document.documentElement;
@@ -1335,6 +1426,33 @@
                 ? '<i class="fa-solid fa-moon"></i>' 
                 : '<i class="fa-solid fa-sun" style="color: #f59e0b;"></i>';
             themeToggleBtn.setAttribute('title', newTheme === 'light' ? 'Switch to Dark Theme' : 'Switch to Light Theme');
+        });
+
+        // Mobile Navigation Drawer Handlers
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileNavClose = document.getElementById('mobileNavClose');
+        const mobileNavDrawer = document.getElementById('mobileNavDrawer');
+        const mobileNavOverlay = document.getElementById('mobileNavOverlay');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        function openMobileNav() {
+            mobileNavDrawer.classList.add('active');
+            mobileNavOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMobileNav() {
+            mobileNavDrawer.classList.remove('active');
+            mobileNavOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        if (mobileMenuBtn) mobileMenuBtn.addEventListener('click', openMobileNav);
+        if (mobileNavClose) mobileNavClose.addEventListener('click', closeMobileNav);
+        if (mobileNavOverlay) mobileNavOverlay.addEventListener('click', closeMobileNav);
+
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', closeMobileNav);
         });
 
         // Active Navigation Scroll Highlighting
