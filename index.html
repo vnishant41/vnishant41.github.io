@@ -170,10 +170,11 @@
         .career-profile-text p:last-child { margin-bottom: 0; font-weight: 600; color: var(--primary); }
 
         /* Progression Strip */
-        .progression-strip { display: flex; align-items: center; justify-content: space-between; background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 16px 22px; margin-top: 28px; flex-wrap: wrap; gap: 12px; }
-        .prog-node { display: flex; align-items: center; gap: 8px; font-size: 0.84rem; font-weight: 800; color: var(--text-main); }
-        .prog-node i { color: var(--primary); }
-        .prog-arrow { color: var(--text-dim); font-size: 0.8rem; }
+        .progression-strip { display: flex; align-items: center; justify-content: flex-start; background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 18px 20px; margin-top: 28px; flex-wrap: wrap; gap: 10px 12px; }
+        .prog-node { display: inline-flex; align-items: center; gap: 8px; font-size: 0.84rem; font-weight: 800; color: var(--text-main); background: var(--bg-card); border: 1px solid var(--border-color); padding: 7px 14px; border-radius: 8px; white-space: nowrap; transition: var(--transition); }
+        .prog-node:hover { border-color: var(--primary); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+        .prog-node i { color: var(--primary); font-size: 0.9rem; }
+        .prog-arrow { color: var(--text-dim); font-size: 0.76rem; display: inline-flex; align-items: center; }
 
         /* ========================================================
            3. CORE CAPABILITIES SECTION
@@ -506,7 +507,7 @@
                     <div class="progression-strip">
                         <div class="prog-node"><i class="fa-solid fa-seedling"></i> B.Sc. Agriculture</div>
                         <i class="fa-solid fa-chevron-right prog-arrow"></i>
-                        <div class="prog-node"><i class="fa-solid fa-database"></i> Data Curator (AIYUga Algorithms)</div>
+                        <div class="prog-node"><i class="fa-solid fa-database"></i> Data Curator (AIYuga Algorithms)</div>
                         <i class="fa-solid fa-chevron-right prog-arrow"></i>
                         <div class="prog-node"><i class="fa-solid fa-compass"></i> BHU Agroforestry</div>
                         <i class="fa-solid fa-chevron-right prog-arrow"></i>
@@ -1066,13 +1067,13 @@
                         </div>
                     </div>
 
-                    <!-- 4. AIYUga Algorithms Private Limited (Data Curator) -->
+                    <!-- 4. AIYuga Algorithms Private Limited (Data Curator) -->
                     <div class="exp-item">
                         <div class="exp-header">
                             <span class="exp-date">2021 – 2022 · Data Management & Analytics</span>
                             <h3 class="exp-role">Data Curator</h3>
                             <div class="exp-company">
-                                <i class="fa-solid fa-building"></i> AIYUga Algorithms Private Limited
+                                <i class="fa-solid fa-building"></i> AIYuga Algorithms Private Limited
                             </div>
                         </div>
 
