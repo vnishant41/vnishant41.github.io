@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nishant Vishwakarma | Junior Research Analyst — Agribusiness & Commodity Markets</title>
-    <meta name="description" content="Professional recruiter-facing portfolio of Nishant Vishwakarma, Junior Research Analyst specializing in commodity research, IPGA data management, agricultural market intelligence, and MIS systems.">
-    <meta name="keywords" content="Nishant Vishwakarma, Research Analyst Portfolio, Agribusiness Analyst, Commodity Research, IPGA Data Management, agAlabs, JNKVV, Pulse Market Intelligence">
-    
+    <title>Nishant Vishwakarma | Junior Research Analyst — Agribusiness & Commodity Research</title>
+    <meta name="description" content="Recruiter-focused portfolio of Nishant Vishwakarma, Junior Research Analyst specializing in commodity research, pulse markets, market intelligence, and agricultural data analysis.">
+    <meta name="keywords" content="Nishant Vishwakarma, Junior Research Analyst, Agribusiness Analyst, Commodity Research, Pulses Research, Market Intelligence, Agricultural Data Analytics, JNKVV Jabalpur, agAlabs, Power BI, Excel VBA">
+    <meta name="author" content="Nishant Vishwakarma">
+
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Nishant Vishwakarma | Agribusiness & Commodity Research Portfolio">
-    <meta property="og:description" content="Professional portfolio showcasing commodity research discipline, IPGA data pipelines, agribusiness expertise, and technical MIS projects.">
+    <meta property="og:title" content="Nishant Vishwakarma | Junior Research Analyst — Agribusiness & Commodity Research">
+    <meta property="og:description" content="Agriculture professional with an MBA in Agri-Business Management, specialising in commodity research, pulse markets, market intelligence and agricultural data analysis.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://vnishant41.github.io">
 
-    <!-- Fonts & Icons -->
+    <!-- Google Fonts & Font Awesome Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -24,7 +25,7 @@
             /* Corporate Dark Theme Palette */
             --bg-body: #0a1711;
             --bg-card: #10241b;
-            --bg-card-hover: #162f23;
+            --bg-card-hover: #152d22;
             --bg-card-alt: #132a1f;
             --border-color: #1c3c2d;
             --border-hover: #2d5e46;
@@ -32,16 +33,20 @@
             --text-muted: #9ab0a3;
             --text-dim: #6b8476;
             --primary: #10b981;
-            --primary-glow: rgba(16, 185, 129, 0.2);
+            --primary-glow: rgba(16, 185, 129, 0.22);
             --primary-dark: #059669;
             --accent-gold: #d97706;
+            --accent-gold-bg: rgba(217, 119, 6, 0.14);
             --accent-purple: #8b5cf6;
+            --accent-purple-bg: rgba(139, 92, 246, 0.14);
             --accent-blue: #3b82f6;
+            --accent-blue-bg: rgba(59, 130, 246, 0.14);
             --tag-bg: rgba(16, 185, 129, 0.12);
             --tag-text: #34d399;
-            --nav-bg: rgba(10, 23, 17, 0.94);
+            --nav-bg: rgba(10, 23, 17, 0.92);
             --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.35);
-            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
+            --shadow-md: 0 12px 28px rgba(0, 0, 0, 0.45);
+            --shadow-lg: 0 20px 45px rgba(0, 0, 0, 0.55);
             --radius-sm: 8px;
             --radius-md: 14px;
             --radius-lg: 20px;
@@ -49,6 +54,7 @@
         }
 
         [data-theme="light"] {
+            /* Executive Light Theme Palette (Default) */
             --bg-body: #f5f8f6;
             --bg-card: #ffffff;
             --bg-card-hover: #f8faf9;
@@ -62,29 +68,33 @@
             --primary-glow: rgba(5, 150, 105, 0.18);
             --primary-dark: #047857;
             --accent-gold: #d97706;
+            --accent-gold-bg: rgba(217, 119, 6, 0.1);
             --accent-purple: #7c3aed;
+            --accent-purple-bg: rgba(124, 58, 237, 0.1);
             --accent-blue: #2563eb;
+            --accent-blue-bg: rgba(37, 99, 235, 0.1);
             --tag-bg: rgba(5, 150, 105, 0.1);
             --tag-text: #047857;
             --nav-bg: rgba(245, 248, 246, 0.94);
             --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.06);
             --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; font-family: 'Plus Jakarta Sans', 'Inter', sans-serif; }
+        html { scroll-behavior: smooth; font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
         body { background-color: var(--bg-body); color: var(--text-main); line-height: 1.65; transition: background-color 0.3s ease, color 0.3s ease; overflow-x: hidden; }
         a { color: inherit; text-decoration: none; }
         .container { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
 
         /* Header Navigation */
-        header { position: sticky; top: 0; z-index: 100; background: var(--nav-bg); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-color); }
+        header { position: sticky; top: 0; z-index: 1000; background: var(--nav-bg); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-color); }
         .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; gap: 20px; }
         
-        .brand-logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; letter-spacing: -0.03em; white-space: nowrap; flex-shrink: 0; }
+        .brand-logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.12rem; letter-spacing: -0.03em; white-space: nowrap; flex-shrink: 0; }
         .brand-badge { background: var(--primary); color: #ffffff; width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; box-shadow: 0 0 12px var(--primary-glow); }
         
-        .nav-links { display: flex; align-items: center; gap: 22px; list-style: none; font-size: 0.88rem; font-weight: 600; color: var(--text-muted); }
+        .nav-links { display: flex; align-items: center; gap: 18px; list-style: none; font-size: 0.86rem; font-weight: 600; color: var(--text-muted); }
         .nav-links a { transition: var(--transition); position: relative; padding: 6px 0; white-space: nowrap; }
         .nav-links a:hover, .nav-links a.active { color: var(--primary); }
         .nav-links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: var(--primary); transition: var(--transition); border-radius: 2px; }
@@ -95,143 +105,249 @@
         /* Buttons */
         .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 18px; border-radius: var(--radius-sm); font-size: 0.86rem; font-weight: 700; cursor: pointer; transition: var(--transition); border: 1px solid transparent; text-align: center; white-space: nowrap; }
         .btn-primary { background: var(--primary); color: #ffffff; box-shadow: 0 4px 16px var(--primary-glow); }
-        .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 24px var(--primary-glow); }
+        .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: 0 8px 24px var(--primary-glow); color: #ffffff; }
         .btn-outline { background: transparent; border-color: var(--border-color); color: var(--text-main); }
         .btn-outline:hover { border-color: var(--primary); color: var(--primary); background: var(--tag-bg); transform: translateY(-2px); }
+        .btn-gold { background: var(--accent-gold-bg); border-color: rgba(217, 119, 6, 0.3); color: var(--accent-gold); }
+        .btn-gold:hover { background: var(--accent-gold); color: #ffffff; transform: translateY(-2px); }
         
         .theme-toggle { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-main); width: 38px; height: 38px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1rem; transition: var(--transition); flex-shrink: 0; }
         .theme-toggle:hover { border-color: var(--primary); color: var(--primary); }
 
         /* Section Layout */
         section { padding: 84px 0; border-bottom: 1px solid var(--border-color); }
-        .section-header { max-width: 760px; margin-bottom: 44px; }
-        .section-tag { display: inline-block; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 12px; background: var(--tag-bg); padding: 4px 12px; border-radius: 20px; }
-        .section-title { font-size: clamp(2rem, 3.2vw, 2.6rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.04em; margin-bottom: 14px; }
-        .section-desc { font-size: 1.05rem; color: var(--text-muted); line-height: 1.6; }
+        .section-header { max-width: 820px; margin-bottom: 44px; }
+        .section-tag { display: inline-flex; align-items: center; gap: 6px; font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 12px; background: var(--tag-bg); padding: 4px 12px; border-radius: 20px; }
+        .section-title { font-size: clamp(2rem, 3.2vw, 2.5rem); font-weight: 800; line-height: 1.18; letter-spacing: -0.035em; margin-bottom: 12px; }
+        .section-desc { font-size: 1.05rem; color: var(--text-muted); line-height: 1.65; }
 
-        /* Hero Section with Candidate Profile Photo */
-        .hero { padding: 84px 0 76px; background: radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.07) 0%, transparent 60%); }
-        .hero-grid { display: grid; grid-template-columns: 0.95fr 1.05fr; gap: 48px; align-items: stretch; }
+        /* ========================================================
+           1. HERO SECTION & CANDIDATE PROFILE PHOTO CARD
+           ======================================================== */
+        .hero { padding: 80px 0 72px; background: radial-gradient(circle at 85% 15%, rgba(16, 185, 129, 0.08) 0%, transparent 65%); }
+        .hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center; }
+        
         .hero-content { display: flex; flex-direction: column; justify-content: center; }
         .hero-eyebrow { font-size: 0.82rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
-        .hero-title { font-size: clamp(2.4rem, 4.2vw, 3.4rem); font-weight: 800; line-height: 1.1; letter-spacing: -0.045em; margin-bottom: 20px; }
-        .hero-title span { color: var(--primary); }
-        .hero-subtitle { font-size: 1.08rem; color: var(--text-muted); margin-bottom: 32px; line-height: 1.65; max-width: 640px; }
-        .hero-buttons { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-
-        /* Candidate Card with Photo Integration */
-        .profile-summary-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 32px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; }
-        .profile-summary-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--primary), var(--accent-gold)); }
+        .hero-name { font-size: clamp(2.4rem, 4.4vw, 3.6rem); font-weight: 800; line-height: 1.08; letter-spacing: -0.04em; margin-bottom: 8px; }
+        .hero-role-title { font-size: clamp(1.2rem, 2vw, 1.45rem); font-weight: 700; color: var(--primary); margin-bottom: 18px; line-height: 1.35; }
+        .hero-headline { font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 14px; letter-spacing: -0.02em; }
+        .hero-subtitle { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 30px; line-height: 1.68; max-width: 650px; }
         
-        .candidate-header-flex { display: flex; gap: 22px; align-items: center; margin-bottom: 22px; text-align: left; }
-        .candidate-avatar { width: 165px; height: 165px; border-radius: 20px; object-fit: cover; border: 3.5px solid var(--primary); box-shadow: 0 10px 28px var(--primary-glow); flex-shrink: 0; }
-        .candidate-meta { flex: 1; text-align: left; }
-        .card-label { font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); margin-bottom: 6px; display: inline-block; background: rgba(217, 119, 6, 0.12); padding: 4px 12px; border-radius: 20px; }
-        .candidate-name { font-size: 1.65rem; font-weight: 800; margin-bottom: 4px; letter-spacing: -0.02em; text-align: left; }
-        .candidate-title { font-size: 1rem; font-weight: 700; color: var(--primary); line-height: 1.35; text-align: left; }
+        .hero-buttons { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 26px; }
+        .hero-socials { display: flex; align-items: center; gap: 16px; font-size: 0.9rem; font-weight: 600; color: var(--text-muted); }
+        .hero-socials a { display: inline-flex; align-items: center; gap: 6px; transition: var(--transition); }
+        .hero-socials a:hover { color: var(--primary); }
+
+        /* Candidate Profile Headshot Card (Recruiter-Centric) */
+        .profile-photo-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 28px; box-shadow: var(--shadow-lg); position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 20px; }
+        .profile-photo-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--primary), var(--accent-gold)); }
         
-        .candidate-bio { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6; text-align: left; }
+        .photo-wrapper { display: flex; align-items: center; gap: 20px; }
+        .headshot-img { width: 135px; height: 135px; border-radius: 18px; object-fit: cover; border: 3px solid var(--primary); box-shadow: 0 8px 24px var(--primary-glow); flex-shrink: 0; }
         
-        .fact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-        .fact-item { background: var(--bg-card-alt); border: 1px solid var(--border-color); padding: 12px 14px; border-radius: var(--radius-sm); }
-        .fact-item strong { display: block; font-size: 0.92rem; color: var(--text-main); }
-        .fact-item span { font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
-
-        /* Proactive Value Badge */
-        .proactive-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent-purple); background: rgba(139, 92, 246, 0.12); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(139, 92, 246, 0.25); margin-bottom: 12px; }
-
-        /* About Me Section */
-        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-        .about-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 32px; transition: var(--transition); }
-        .about-card:hover { border-color: var(--border-hover); transform: translateY(-3px); box-shadow: var(--shadow-sm); }
-        .about-card h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
-        .about-card h3 i { color: var(--primary); }
-        .about-card p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.65; }
-
-        /* Capabilities Grid */
-        .cap-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-        .cap-box { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; transition: var(--transition); display: flex; flex-direction: column; height: 100%; }
-        .cap-box:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: var(--shadow-sm); }
-        .cap-num { font-size: 0.8rem; font-weight: 800; color: var(--primary); letter-spacing: 0.1em; margin-bottom: 14px; }
-        .cap-box h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 10px; }
-        .cap-box p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.55; }
-
-        /* Featured Projects */
-        .project-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; margin-bottom: 24px; box-shadow: var(--shadow-sm); transition: var(--transition); }
-        .project-card:hover { border-color: var(--border-hover); box-shadow: var(--shadow-lg); }
-        .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; flex-wrap: wrap; gap: 12px; }
-        .project-num { font-size: 0.8rem; font-weight: 800; color: var(--primary); letter-spacing: 0.1em; }
-        .project-title { font-size: 1.4rem; font-weight: 800; margin-top: 4px; }
-        .project-desc { color: var(--text-muted); font-size: 0.98rem; margin-bottom: 24px; line-height: 1.65; max-width: 900px; }
+        .photo-meta { flex: 1; }
+        .recruiter-pill { display: inline-block; font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-gold); background: var(--accent-gold-bg); padding: 3px 10px; border-radius: 20px; margin-bottom: 6px; }
+        .photo-name { font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 2px; }
+        .photo-role { font-size: 0.9rem; font-weight: 700; color: var(--primary); line-height: 1.35; margin-bottom: 10px; }
         
-        .project-details-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
-        .detail-box { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 16px; }
-        .detail-box h4 { font-size: 0.82rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary); margin-bottom: 6px; }
-        .detail-box p { font-size: 0.88rem; color: var(--text-muted); }
+        .meta-list { list-style: none; display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; color: var(--text-muted); }
+        .meta-list li { display: flex; align-items: center; gap: 8px; }
+        .meta-list li i { color: var(--primary); width: 16px; text-align: center; }
 
-        .project-tags { display: flex; flex-wrap: wrap; gap: 8px; }
-        .tag { font-size: 0.78rem; font-weight: 700; padding: 5px 12px; border-radius: 6px; background: var(--bg-card-alt); color: var(--text-muted); border: 1px solid var(--border-color); }
+        .profile-badges-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding-top: 14px; border-top: 1px solid var(--border-color); }
+        .badge-box { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 10px 12px; }
+        .badge-box strong { display: block; font-size: 0.86rem; color: var(--text-main); font-weight: 700; }
+        .badge-box span { font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; font-weight: 700; letter-spacing: 0.04em; }
 
-        /* Strengths Grid */
-        .strengths-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-        .strength-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; transition: var(--transition); }
-        .strength-card:hover { border-color: var(--primary); transform: translateY(-3px); }
-        .strength-card h3 { font-size: 1.12rem; font-weight: 700; margin-bottom: 8px; color: var(--text-main); display: flex; align-items: center; gap: 10px; }
-        .strength-card h3 i { color: var(--primary); font-size: 1rem; }
-        .strength-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+        /* ========================================================
+           2. CAREER PROFILE / ABOUT ME SECTION
+           ======================================================== */
+        .career-profile-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 38px 42px; box-shadow: var(--shadow-md); position: relative; }
+        .career-profile-card::before { content: ''; position: absolute; left: 0; top: 20px; bottom: 20px; width: 4px; background: var(--primary); border-radius: 0 4px 4px 0; }
+        .career-profile-text { font-size: 1.08rem; line-height: 1.8; color: var(--text-main); }
+        .career-profile-text p { margin-bottom: 18px; }
+        .career-profile-text p:last-child { margin-bottom: 0; font-weight: 600; color: var(--primary); }
 
-        /* Experience Timeline */
-        .timeline-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 48px; }
-        .timeline-track { border-left: 2px solid var(--border-color); padding-left: 28px; display: flex; flex-direction: column; gap: 32px; position: relative; }
-        .timeline-item { position: relative; }
-        .timeline-item::before { content: ''; position: absolute; left: -35px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--primary); border: 4px solid var(--bg-body); box-shadow: 0 0 10px var(--primary-glow); }
-        .timeline-date { font-size: 0.8rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
-        .timeline-role { font-size: 1.25rem; font-weight: 800; margin-bottom: 4px; }
-        .timeline-company { font-size: 0.95rem; font-weight: 600; color: var(--text-muted); margin-bottom: 12px; }
-        .timeline-desc { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+        /* Progression Strip */
+        .progression-strip { display: flex; align-items: center; justify-content: space-between; background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 16px 22px; margin-top: 28px; flex-wrap: wrap; gap: 12px; }
+        .prog-node { display: flex; align-items: center; gap: 8px; font-size: 0.84rem; font-weight: 800; color: var(--text-main); }
+        .prog-node i { color: var(--primary); }
+        .prog-arrow { color: var(--text-dim); font-size: 0.8rem; }
+
+        /* ========================================================
+           3. CORE CAPABILITIES SECTION
+           ======================================================== */
+        .capabilities-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+        .capability-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; transition: var(--transition); display: flex; flex-direction: column; }
+        .capability-card:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: var(--shadow-md); }
+        .cap-icon { width: 44px; height: 44px; border-radius: 10px; background: var(--tag-bg); color: var(--primary); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; margin-bottom: 16px; }
+        .cap-title { font-size: 1.15rem; font-weight: 800; margin-bottom: 12px; letter-spacing: -0.01em; }
+        .cap-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 14px; }
+        .cap-pill { font-size: 0.78rem; font-weight: 700; padding: 4px 10px; border-radius: 6px; background: var(--bg-card-alt); border: 1px solid var(--border-color); color: var(--text-muted); }
+
+        /* ========================================================
+           4. PRIMARY & SECONDARY COMMODITY COVERAGE SECTION
+           ======================================================== */
+        .coverage-container { display: flex; flex-direction: column; gap: 26px; }
         
-        .impact-list { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-        .impact-list li { display: flex; align-items: flex-start; gap: 8px; font-size: 0.88rem; color: var(--text-main); }
-        .impact-list li i { color: var(--accent-purple); font-size: 0.85rem; margin-top: 4px; }
+        /* Primary: Pulses (Dominant Treatment) */
+        .primary-coverage-box { background: var(--bg-card); border: 2px solid var(--primary); border-radius: var(--radius-lg); padding: 36px; box-shadow: var(--shadow-md); position: relative; }
+        .coverage-badge-primary { display: inline-flex; align-items: center; gap: 6px; background: var(--primary); color: #ffffff; font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; padding: 6px 14px; border-radius: 20px; margin-bottom: 14px; }
+        .coverage-title-primary { font-size: 1.45rem; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 6px; }
+        .coverage-subtitle { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 22px; line-height: 1.6; }
 
-        .edu-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 24px; margin-bottom: 16px; }
-        .edu-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; }
-        .edu-card p { color: var(--text-muted); font-size: 0.88rem; }
+        .pulses-commodity-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-bottom: 24px; }
+        .pulse-item-card { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px 12px; text-align: center; transition: var(--transition); }
+        .pulse-item-card:hover { border-color: var(--primary); transform: translateY(-2px); }
+        .pulse-item-card strong { display: block; font-size: 0.92rem; color: var(--text-main); margin-bottom: 2px; }
+        .pulse-item-card span { font-size: 0.72rem; color: var(--primary); font-weight: 700; text-transform: uppercase; }
+
+        .pulse-dimensions-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+        .dim-box { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px; }
+        .dim-box h5 { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; color: var(--primary); letter-spacing: 0.06em; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+        .dim-box p { font-size: 0.84rem; color: var(--text-muted); line-height: 1.5; }
+
+        /* Secondary / Backup: Tomato, Potato, Onion (Smaller Treatment) */
+        .secondary-coverage-box { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 26px 30px; }
+        .coverage-badge-secondary { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-gold-bg); color: var(--accent-gold); font-size: 0.74rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 12px; border-radius: 20px; margin-bottom: 10px; border: 1px solid rgba(217, 119, 6, 0.25); }
+        .secondary-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; align-items: center; }
+        .secondary-text h4 { font-size: 1.12rem; font-weight: 800; margin-bottom: 6px; }
+        .secondary-text p { font-size: 0.92rem; color: var(--text-muted); line-height: 1.6; }
         
-        .bhu-note { background: rgba(217, 119, 6, 0.08); border-left: 4px solid var(--accent-gold); padding: 20px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; margin-top: 20px; }
-        .bhu-note h4 { color: var(--accent-gold); font-size: 0.95rem; margin-bottom: 6px; font-weight: 800; }
-        .bhu-note p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; }
+        .top-chips-row { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+        .top-chip { background: var(--bg-card); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: 8px; font-size: 0.88rem; font-weight: 700; color: var(--text-main); display: inline-flex; align-items: center; gap: 8px; }
+        .top-chip i { color: var(--accent-gold); }
 
-        /* Skills Matrix */
-        .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
-        .skill-pill { background: var(--bg-card); border: 1px solid var(--border-color); padding: 10px 16px; border-radius: var(--radius-sm); font-size: 0.88rem; font-weight: 700; color: var(--text-main); display: flex; align-items: center; gap: 8px; transition: var(--transition); }
-        .skill-pill i { color: var(--primary); }
-        .skill-pill:hover { border-color: var(--primary); transform: translateY(-2px); }
+        /* ========================================================
+           5. SELECTED RESEARCH WORK (EVIDENCE OF CAPABILITY)
+           ======================================================== */
+        .research-work-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 36px; margin-bottom: 26px; box-shadow: var(--shadow-sm); transition: var(--transition); }
+        .research-work-card:hover { border-color: var(--border-hover); box-shadow: var(--shadow-md); }
+        .research-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; flex-wrap: wrap; gap: 12px; }
+        .research-eyebrow { font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--primary); margin-bottom: 4px; }
+        .research-title { font-size: 1.45rem; font-weight: 800; letter-spacing: -0.02em; }
+        .research-desc { font-size: 0.98rem; color: var(--text-muted); margin-bottom: 22px; line-height: 1.68; max-width: 960px; }
 
-        /* Contact Section */
-        .contact-card { background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-alt) 100%); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 56px 40px; box-shadow: var(--shadow-lg); text-align: center; max-width: 900px; margin: 0 auto; }
-        .contact-card h2 { font-size: clamp(1.8rem, 3.2vw, 2.6rem); font-weight: 800; letter-spacing: -0.04em; margin-bottom: 16px; }
-        .contact-card p { font-size: 1.05rem; color: var(--text-muted); max-width: 640px; margin: 0 auto 36px; }
+        /* 4 Research Output Cards Grid */
+        .research-outputs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 22px; }
+        .output-card { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 18px; }
+        .output-card h4 { font-size: 0.84rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary); margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+        .output-card p { font-size: 0.86rem; color: var(--text-muted); line-height: 1.55; }
+
+        /* ========================================================
+           6. ANALYTICAL APPROACH & DATA VISUALISATION (POWER BI)
+           ======================================================== */
+        .pipeline-flow { display: flex; align-items: center; justify-content: space-between; background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 16px 20px; margin-bottom: 24px; flex-wrap: wrap; gap: 10px; }
+        .pipeline-step { display: flex; align-items: center; gap: 8px; font-size: 0.84rem; font-weight: 700; color: var(--text-main); }
+        .pipeline-step-num { width: 24px; height: 24px; border-radius: 50%; background: var(--primary); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; }
+        .pipeline-arrow { color: var(--text-dim); font-size: 0.85rem; }
+
+        .dashboard-metrics-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 22px; }
+        .d-metric { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 12px 14px; }
+        .d-metric strong { display: block; font-size: 0.86rem; color: var(--text-main); margin-bottom: 2px; }
+        .d-metric span { font-size: 0.76rem; color: var(--text-muted); }
+
+        /* ========================================================
+           7. PROFESSIONAL EXPERIENCE
+           ======================================================== */
+        .experience-timeline { display: flex; flex-direction: column; gap: 32px; position: relative; border-left: 2px solid var(--border-color); padding-left: 32px; margin-left: 12px; }
+        .exp-item { position: relative; }
+        .exp-item::before { content: ''; position: absolute; left: -39px; top: 6px; width: 14px; height: 14px; border-radius: 50%; background: var(--primary); border: 4px solid var(--bg-body); box-shadow: 0 0 10px var(--primary-glow); }
+        
+        .exp-header { margin-bottom: 12px; }
+        .exp-date { font-size: 0.78rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px; display: inline-block; }
+        .exp-role { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.02em; }
+        .exp-company { font-size: 1rem; font-weight: 700; color: var(--text-muted); display: flex; align-items: center; gap: 8px; }
+        
+        .exp-bullets { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-top: 14px; }
+        .exp-bullets li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.92rem; color: var(--text-main); line-height: 1.6; }
+        .exp-bullets li i { color: var(--primary); font-size: 0.85rem; margin-top: 5px; flex-shrink: 0; }
+
+        .publication-badge-box { background: var(--bg-card-alt); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px 18px; margin-top: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .pub-item strong { display: block; font-size: 0.88rem; color: var(--text-main); margin-bottom: 2px; }
+        .pub-item span { font-size: 0.8rem; color: var(--text-muted); }
+
+        /* ========================================================
+           8. EDUCATION & ACADEMIC TRANSITION
+           ======================================================== */
+        .education-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+        .edu-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 28px; }
+        .edu-year { font-size: 0.78rem; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px; }
+        .edu-degree { font-size: 1.18rem; font-weight: 800; margin-bottom: 6px; }
+        .edu-inst { font-size: 0.92rem; color: var(--text-muted); }
+        .edu-topics { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+        .edu-topic { font-size: 0.75rem; font-weight: 700; background: var(--bg-card-alt); padding: 3px 8px; border-radius: 4px; color: var(--text-muted); }
+
+        .bhu-transition-card { background: var(--accent-gold-bg); border-left: 4px solid var(--accent-gold); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: 24px 28px; margin-top: 24px; }
+        .bhu-transition-card h4 { color: var(--accent-gold); font-size: 1rem; font-weight: 800; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+        .bhu-transition-card p { font-size: 0.92rem; color: var(--text-main); line-height: 1.65; }
+
+        /* ========================================================
+           9. WHY MY PROFILE (8 KEY DIFFERENTIATORS)
+           ======================================================== */
+        .why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+        .why-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 22px 18px; transition: var(--transition); display: flex; flex-direction: column; }
+        .why-card:hover { border-color: var(--primary); transform: translateY(-4px); box-shadow: var(--shadow-sm); }
+        .why-num { font-size: 0.75rem; font-weight: 800; color: var(--primary); letter-spacing: 0.1em; margin-bottom: 8px; }
+        .why-title { font-size: 0.98rem; font-weight: 800; margin-bottom: 6px; }
+        .why-desc { font-size: 0.84rem; color: var(--text-muted); line-height: 1.55; }
+
+        /* ========================================================
+           10. TOOLS & SKILLS
+           ======================================================== */
+        .tools-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+        .tool-pill { background: var(--bg-card); border: 1px solid var(--border-color); padding: 12px 18px; border-radius: var(--radius-sm); font-size: 0.88rem; font-weight: 700; color: var(--text-main); display: inline-flex; align-items: center; gap: 10px; transition: var(--transition); }
+        .tool-pill i { color: var(--primary); font-size: 1.05rem; }
+        .tool-pill:hover { border-color: var(--primary); transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+
+        /* ========================================================
+           11. CAREER INTERESTS
+           ======================================================== */
+        .interests-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+        .interest-badge { background: var(--tag-bg); border: 1px solid var(--border-hover); padding: 10px 18px; border-radius: 30px; font-size: 0.88rem; font-weight: 700; color: var(--tag-text); display: inline-flex; align-items: center; gap: 8px; transition: var(--transition); }
+        .interest-badge:hover { background: var(--primary); color: #ffffff; transform: translateY(-2px); }
+
+        /* ========================================================
+           12. CONTACT & RECRUITER OUTREACH
+           ======================================================== */
+        .contact-box { background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-alt) 100%); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 56px 40px; text-align: center; max-width: 960px; margin: 0 auto; box-shadow: var(--shadow-lg); }
+        .contact-box h2 { font-size: clamp(1.8rem, 3.2vw, 2.5rem); font-weight: 800; letter-spacing: -0.035em; margin-bottom: 14px; }
+        .contact-box p { font-size: 1.05rem; color: var(--text-muted); max-width: 680px; margin: 0 auto 36px; line-height: 1.65; }
         .contact-buttons { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
 
         /* Footer */
-        footer { padding: 32px 0; color: var(--text-dim); font-size: 0.85rem; border-top: 1px solid var(--border-color); }
+        footer { padding: 36px 0; color: var(--text-dim); font-size: 0.86rem; border-top: 1px solid var(--border-color); }
         .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
 
-        /* Responsive Alignment Rules */
-        @media (max-width: 1100px) {
-            .nav-links { gap: 14px; font-size: 0.82rem; }
+        /* Responsive Breakpoints */
+        @media (max-width: 1120px) {
+            .pulses-commodity-grid { grid-template-columns: repeat(3, 1fr); }
+            .pulse-dimensions-row { grid-template-columns: repeat(2, 1fr); }
+            .why-grid { grid-template-columns: repeat(2, 1fr); }
+            .capabilities-grid { grid-template-columns: repeat(2, 1fr); }
+            .research-outputs-grid { grid-template-columns: repeat(2, 1fr); }
+            .dashboard-metrics-grid { grid-template-columns: repeat(2, 1fr); }
         }
-        @media (max-width: 992px) {
-            .hero-grid, .about-grid, .timeline-grid { grid-template-columns: 1fr; }
-            .cap-grid { grid-template-columns: repeat(2, 1fr); }
-            .strengths-grid { grid-template-columns: 1fr; }
-            .project-details-grid { grid-template-columns: 1fr; }
-        }
-        @media (max-width: 820px) {
+        @media (max-width: 920px) {
+            .hero-grid { grid-template-columns: 1fr; }
+            .education-grid { grid-template-columns: 1fr; }
+            .secondary-grid { grid-template-columns: 1fr; }
+            .top-chips-row { justify-content: flex-start; }
             .nav-links { display: none; }
+        }
+        @media (max-width: 640px) {
+            .pulses-commodity-grid { grid-template-columns: repeat(2, 1fr); }
+            .pulse-dimensions-row { grid-template-columns: 1fr; }
+            .why-grid { grid-template-columns: 1fr; }
             .capabilities-grid { grid-template-columns: 1fr; }
-            .contact-card { padding: 36px 20px; }
+            .research-outputs-grid { grid-template-columns: 1fr; }
+            .dashboard-metrics-grid { grid-template-columns: 1fr; }
+            .profile-badges-row { grid-template-columns: 1fr; }
+            .publication-badge-box { grid-template-columns: 1fr; }
+            .photo-wrapper { flex-direction: column; text-align: center; }
+            .meta-list { align-items: center; }
+            .contact-box { padding: 36px 20px; }
             section { padding: 60px 0; }
         }
     </style>
@@ -249,20 +365,22 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#capabilities">Capabilities</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#strengths">Strengths</a></li>
+                <li><a href="#coverage">Commodities</a></li>
+                <li><a href="#research">Research</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#why-me">Why My Profile</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
             <div class="nav-actions">
-                <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Theme" aria-label="Toggle Light/Dark Theme">
                     <i class="fa-solid fa-moon"></i>
                 </button>
-                <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-outline">
-                    <i class="fa-solid fa-file-pdf"></i> Resume
+                <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-outline" id="navCvBtn">
+                    <i class="fa-solid fa-file-arrow-down"></i> Resume
                 </a>
-                <a href="mailto:vnishant41@gmail.com" class="btn btn-primary">
+                <a href="mailto:vnishant41@gmail.com" class="btn btn-primary" id="navEmailBtn">
                     <i class="fa-solid fa-envelope"></i> Email Me
                 </a>
             </div>
@@ -271,396 +389,881 @@
 
     <main id="top">
 
-        <!-- Hero Section -->
+        <!-- ========================================================
+             1. HERO SECTION
+             ======================================================== -->
         <section class="hero">
             <div class="container hero-grid">
-                <!-- Profile Summary Card on LEFT -->
-                <div class="profile-summary-card">
-                    <div>
-                        <div class="candidate-header-flex">
-                            <div class="candidate-meta">
-                                <span class="card-label"><i class="fa-solid fa-id-card"></i> Candidate Profile</span>
-                                <h2 class="candidate-name">Nishant Vishwakarma</h2>
-                                <div class="candidate-title">Junior Research Analyst — Agribusiness & Commodity Markets</div>
-                            </div>
-                        </div>
-                        <p class="candidate-bio">
-                            Junior Research Analyst at Agnomics Analytics Lab (agAlabs). Beyond daily pulse commodity market surveillance, proactively engineered automated IPGA daily price pipelines and full-stack research team MIS systems.
-                        </p>
+                
+                <!-- Hero Left: Candidate Introduction & Positioning -->
+                <div class="hero-content">
+                    <div class="hero-eyebrow">
+                        <i class="fa-solid fa-circle-dot"></i> Recruiter-Facing Portfolio · Agribusiness & Commodity Markets
                     </div>
+                    <h1 class="hero-name">NISHANT VISHWAKARMA</h1>
+                    <div class="hero-role-title">Junior Research Analyst | Agribusiness & Commodity Research</div>
+                    <div class="hero-headline">Building insight from agricultural markets and data.</div>
+                    <p class="hero-subtitle">
+                        Agriculture professional with an MBA in Agri-Business Management, specialising in commodity research, pulse markets, market intelligence and agricultural data analysis.
+                    </p>
                     
-                    <div class="fact-grid">
-                        <div class="fact-item">
-                            <strong>Pulses Focus</strong>
-                            <span>Core Research Domain</span>
+                    <!-- 3 Primary Action Buttons -->
+                    <div class="hero-buttons">
+                        <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-primary" id="heroDownloadCv">
+                            <i class="fa-solid fa-file-arrow-down"></i> Download CV
+                        </a>
+                        <a href="https://www.linkedin.com/in/nishant-vishwakarma-/" target="_blank" rel="noopener" class="btn btn-outline">
+                            <i class="fa-brands fa-linkedin" style="color: #0077b5;"></i> LinkedIn
+                        </a>
+                        <a href="#research" class="btn btn-outline">
+                            <i class="fa-solid fa-compass"></i> Explore My Work
+                        </a>
+                    </div>
+
+                    <!-- Verified Direct Links -->
+                    <div class="hero-socials">
+                        <a href="https://github.com/vnishant41" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <span>•</span>
+                        <a href="mailto:vnishant41@gmail.com">
+                            <i class="fa-solid fa-envelope" style="color: var(--primary);"></i> vnishant41@gmail.com
+                        </a>
+                        <span>•</span>
+                        <a href="http://168.144.28.192/" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-server" style="color: var(--accent-purple);"></i> Live MIS
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Right: Professional Photo & Candidate Identity Card -->
+                <div class="profile-photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/nishant_profile.png" alt="Nishant Vishwakarma - Professional Headshot" class="headshot-img" onerror="this.src='assets/nishant_profile.jpg';">
+                        <div class="photo-meta">
+                            <span class="recruiter-pill"><i class="fa-solid fa-id-badge"></i> Candidate Profile</span>
+                            <h2 class="photo-name">Nishant Vishwakarma</h2>
+                            <div class="photo-role">Junior Research Analyst</div>
+                            <ul class="meta-list">
+                                <li><i class="fa-solid fa-location-dot"></i> Jabalpur, Madhya Pradesh, India</li>
+                                <li><i class="fa-solid fa-building-wheat"></i> Agnomics Analytics Lab (agAlabs)</li>
+                                <li><i class="fa-solid fa-envelope"></i> vnishant41@gmail.com</li>
+                            </ul>
                         </div>
-                        <div class="fact-item">
-                            <strong>IPGA Pipelines</strong>
-                            <span>Daily Price Conversion</span>
+                    </div>
+
+                    <!-- Quick Facts Grid -->
+                    <div class="profile-badges-row">
+                        <div class="badge-box">
+                            <strong>Primary Focus</strong>
+                            <span>Pulses Commodity Research</span>
                         </div>
-                        <div class="fact-item">
+                        <div class="badge-box">
                             <strong>MBA Agribusiness</strong>
-                            <span>JNKVV Jabalpur</span>
+                            <span>JNKVV Jabalpur (2023–25)</span>
                         </div>
-                        <div class="fact-item">
-                            <strong>Python, R & AI</strong>
-                            <span>Prompt Engineering</span>
+                        <div class="badge-box">
+                            <strong>B.Sc. Agriculture</strong>
+                            <span>AKS University (2017–21)</span>
+                        </div>
+                        <div class="badge-box">
+                            <strong>Analytics Tools</strong>
+                            <span>Excel · Power BI · VBA · R · Python</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Hero Content on RIGHT -->
-                <div class="hero-content">
-                    <div class="hero-eyebrow">
-                        <i class="fa-solid fa-circle-dot"></i> Recruiter Portfolio · Commodity Analytics & Agribusiness
-                    </div>
-                    <h1 class="hero-title">Building insight from <span>agricultural markets & data.</span></h1>
-                    <p class="hero-subtitle">
-                        <strong>Nishant Vishwakarma</strong> — Junior Research Analyst with a strong background in agriculture and agribusiness management, specializing in commodity research, IPGA data management pipelines, market intelligence, and analytical systems.
-                    </p>
-                    
-                    <div class="hero-buttons">
-                        <a href="#about" class="btn btn-primary">
-                            <i class="fa-solid fa-user-check"></i> Candidate Overview
-                        </a>
-                        <a href="#projects" class="btn btn-outline">
-                            <i class="fa-solid fa-folder-open"></i> Portfolio Projects
-                        </a>
-                        <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-outline">
-                            <i class="fa-solid fa-download"></i> Download CV
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
 
-        <!-- About Me Section -->
+        <!-- ========================================================
+             2. CAREER PROFILE / ABOUT ME
+             ======================================================== -->
         <section id="about">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-user"></i> Professional Identity</span>
-                    <h2 class="section-title">About Me & Analytical Approach</h2>
+                    <span class="section-tag"><i class="fa-solid fa-user-tie"></i> Professional Profile</span>
+                    <h2 class="section-title">Career Profile</h2>
                     <p class="section-desc">
-                        Agriculture is my foundation; commodity research, data engineering, and market intelligence are the capabilities I have built around it.
+                        A confident, factual overview bridging agricultural science, field experience, agribusiness management, and data-driven commodity research.
                     </p>
                 </div>
 
-                <div class="about-grid">
-                    <div class="about-card">
-                        <h3><i class="fa-solid fa-graduation-cap"></i> From Agriculture to Commodity Analytics</h3>
+                <div class="career-profile-card">
+                    <div class="career-profile-text">
                         <p>
-                            My academic background combines a B.Sc. in Agriculture with an MBA in Agri-Business Management. This foundation allows me to interpret agricultural commodities not only as crops in the field, but as complex physical markets shaped by weather, Kharif/Rabi sowing progress, mandi arrivals, government procurement (MSP), international trade flows (C&F/FOB), and tariff policies.
+                            I am an agriculture professional with a background in <strong>B.Sc. Agriculture</strong> and <strong>MBA Agri-Business Management</strong>, currently working as a <strong>Junior Research Analyst</strong> in commodity research and market intelligence.
+                        </p>
+                        <p>
+                            My work focuses on analysing agricultural commodities, particularly <strong>pulses</strong>, across Indian and international markets. I work with price data, crop and sowing information, imports, international markets, weather developments, government policies and supply-demand fundamentals to understand market movements and develop structured commodity insights.
+                        </p>
+                        <p>
+                            My career combines agriculture domain knowledge, field experience, business understanding and data analytics, allowing me to approach agricultural markets from both a ground-level and analytical perspective.
                         </p>
                     </div>
 
-                    <div class="about-card">
-                        <h3><i class="fa-solid fa-sliders"></i> How I Approach Market Research & Data</h3>
-                        <p>
-                            I enjoy working with structured and changing agricultural datasets. My focus is on answering three core questions: <strong>What moved in the market, why did it change, and what does it mean for supply-demand fundamentals?</strong> I clean, validate, and convert fragmented daily market information into clear decision-support insights for research teams and hiring managers.
-                        </p>
+                    <!-- Clear Career Progression Timeline Strip -->
+                    <div class="progression-strip">
+                        <div class="prog-node"><i class="fa-solid fa-seedling"></i> B.Sc. Agriculture</div>
+                        <i class="fa-solid fa-chevron-right prog-arrow"></i>
+                        <div class="prog-node"><i class="fa-solid fa-tractor"></i> Field Advisory (IIL)</div>
+                        <i class="fa-solid fa-chevron-right prog-arrow"></i>
+                        <div class="prog-node"><i class="fa-solid fa-compass"></i> BHU Agroforestry</div>
+                        <i class="fa-solid fa-chevron-right prog-arrow"></i>
+                        <div class="prog-node"><i class="fa-solid fa-graduation-cap"></i> MBA Agribusiness (JNKVV)</div>
+                        <i class="fa-solid fa-chevron-right prog-arrow"></i>
+                        <div class="prog-node"><i class="fa-solid fa-chart-line"></i> Commodity Research (agAlabs)</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Capabilities Section -->
+        <!-- ========================================================
+             3. CORE CAPABILITIES
+             ======================================================== -->
         <section id="capabilities" style="background: var(--bg-card-alt);">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Skills Spectrum</span>
-                    <h2 class="section-title">Core Competencies I Bring To A Team</h2>
+                    <span class="section-tag"><i class="fa-solid fa-layer-group"></i> Analytical Capabilities</span>
+                    <h2 class="section-title">Core Research & Analytical Capabilities</h2>
                     <p class="section-desc">
-                        Capabilities developed through commodity research, agricultural field exposure, agribusiness education, and technical data management.
+                        Demonstrated competencies developed through commodity research, agricultural field exposure, agribusiness management education, and technical data workflows.
                     </p>
                 </div>
 
-                <div class="cap-grid">
-                    <div class="cap-box">
-                        <div class="cap-num">01 · COMMODITY RESEARCH</div>
-                        <h3>Market Fundamentals</h3>
-                        <p>Analyse price behaviour using supply-demand balance sheets, mandi arrivals, buffer stocks, import dependency, and government procurement policies.</p>
+                <div class="capabilities-grid">
+                    <!-- 1. Commodity Research -->
+                    <div class="capability-card">
+                        <div class="cap-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3 class="cap-title">Commodity Research</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
+                            Fundamental research across agricultural markets, evaluating price behavior, supply-demand balance sheets, buffer stocks, and market drivers.
+                        </p>
+                        <div class="cap-pills">
+                            <span class="cap-pill">Market Fundamentals</span>
+                            <span class="cap-pill">Price Analysis</span>
+                            <span class="cap-pill">Supply-Demand</span>
+                            <span class="cap-pill">Commodity Intelligence</span>
+                        </div>
                     </div>
 
-                    <div class="cap-box">
-                        <div class="cap-num">02 · DATA MANAGEMENT</div>
-                        <h3>IPGA Feeds & Pipeline Automation</h3>
-                        <p>Build VBA macros, Power Query workflows, and Python data scripts to clean, map, and standardize raw daily price feeds from IPGA into database schemas.</p>
+                    <!-- 2. Agricultural Research -->
+                    <div class="capability-card">
+                        <div class="cap-icon"><i class="fa-solid fa-seedling"></i></div>
+                        <h3 class="cap-title">Agricultural Research</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
+                            Assessing ground-level crop conditions, Kharif and Rabi sowing trends, rainfall distribution, MSP procurement, and agricultural policies.
+                        </p>
+                        <div class="cap-pills">
+                            <span class="cap-pill">Crop Conditions</span>
+                            <span class="cap-pill">Sowing Progress</span>
+                            <span class="cap-pill">Production Outlook</span>
+                            <span class="cap-pill">Rainfall & Policy</span>
+                        </div>
                     </div>
 
-                    <div class="cap-box">
-                        <div class="cap-num">03 · MARKET INTELLIGENCE</div>
-                        <h3>Indian & Global Origins</h3>
-                        <p>Track domestic spot prices (Solapur, Delhi, Jaipur, Akola), imported markets, international CNF/FOB rates (Myanmar, Australia, Canada, Russia), and trade drivers.</p>
+                    <!-- 3. Trade Research -->
+                    <div class="capability-card">
+                        <div class="cap-icon"><i class="fa-solid fa-ship"></i></div>
+                        <h3 class="cap-title">Trade Research</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
+                            Monitoring global origin markets, international CNF/FOB rate fluctuations, port arrivals, import parity, and cross-border trade flows.
+                        </p>
+                        <div class="cap-pills">
+                            <span class="cap-pill">Imports Tracking</span>
+                            <span class="cap-pill">International Prices</span>
+                            <span class="cap-pill">CNF / FOB Rates</span>
+                            <span class="cap-pill">Origin Markets</span>
+                        </div>
                     </div>
 
-                    <div class="cap-box">
-                        <div class="cap-num">04 · ADVANCED ANALYTICS</div>
-                        <h3>Python, R & Prompt Engineering</h3>
-                        <p>Leverage Python, R, SQL, Power BI, and LLM Prompt Engineering to analyze market patterns, structure research workflows, and deliver data-driven intelligence.</p>
+                    <!-- 4. Data Analytics -->
+                    <div class="capability-card">
+                        <div class="cap-icon"><i class="fa-solid fa-database"></i></div>
+                        <h3 class="cap-title">Data Analytics & Systems</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
+                            Using analytical tools to solve agricultural and commodity research problems: structuring, cleaning, and visualizing market datasets.
+                        </p>
+                        <div class="cap-pills">
+                            <span class="cap-pill">Microsoft Excel</span>
+                            <span class="cap-pill">Power Query</span>
+                            <span class="cap-pill">VBA Macros</span>
+                            <span class="cap-pill">Power BI</span>
+                            <span class="cap-pill">Python & R</span>
+                        </div>
+                    </div>
+
+                    <!-- 5. Business & Agribusiness -->
+                    <div class="capability-card">
+                        <div class="cap-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <h3 class="cap-title">Business & Agribusiness</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
+                            Bridging commodity trading dynamics, agricultural value chains, agribusiness economics, and applied decision-support.
+                        </p>
+                        <div class="cap-pills">
+                            <span class="cap-pill">Commodity Trading</span>
+                            <span class="cap-pill">Supply Chain</span>
+                            <span class="cap-pill">Market Research</span>
+                            <span class="cap-pill">Agribusiness Economics</span>
+                        </div>
+                    </div>
+
+                    <!-- 6. Ground-Level Perspective -->
+                    <div class="capability-card">
+                        <div class="cap-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+                        <h3 class="cap-title">Field & Market Intelligence</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.55;">
+                            Direct experience with farmers, mandi traders, and agricultural distribution channels, ensuring analysis reflects ground reality.
+                        </p>
+                        <div class="cap-pills">
+                            <span class="cap-pill">Farmer Interaction</span>
+                            <span class="cap-pill">Retailer Network</span>
+                            <span class="cap-pill">Channel Insights</span>
+                            <span class="cap-pill">Field Observations</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Selected Projects (Candidate Work Showcase) -->
-        <section id="projects">
+        <!-- ========================================================
+             4. PRIMARY & SECONDARY COMMODITY COVERAGE
+             ======================================================== -->
+        <section id="coverage">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Candidate Evidence</span>
-                    <h2 class="section-title">Selected Projects & Proactive Value Additions</h2>
+                    <span class="section-tag"><i class="fa-solid fa-scale-balanced"></i> Commodity Coverage</span>
+                    <h2 class="section-title">Primary & Secondary Commodity Coverage</h2>
                     <p class="section-desc">
-                        These projects demonstrate my technical capabilities, data discipline, and proactive initiative beyond standard daily analyst duties.
+                        A clear structural distinction communicating deep primary specialization in pulses alongside backup research coverage for key perishables.
                     </p>
                 </div>
 
-                <!-- Project 01: IPGA Data Management -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div>
-                            <span class="proactive-badge"><i class="fa-solid fa-star"></i> Proactive System Initiative</span>
-                            <div class="project-num">PROJECT 01 · DATA ENGINEERING & AUTOMATION</div>
-                            <h3 class="project-title">IPGA Daily Price CSV Conversion Workflow</h3>
+                <div class="coverage-container">
+                    
+                    <!-- PRIMARY RESEARCH: PULSES (Dominant Visual Treatment) -->
+                    <div class="primary-coverage-box">
+                        <div class="coverage-badge-primary">
+                            <i class="fa-solid fa-star"></i> Core Research Area: Pulse Commodities (Primary Focus)
                         </div>
-                        <span class="tag" style="color: var(--primary);"><i class="fa-solid fa-check-circle"></i> Excel / VBA / Data Engineering</span>
+                        <h3 class="coverage-title-primary">Primary Commodity Research Focus: Pulses</h3>
+                        <p class="coverage-subtitle">
+                            Continuous, in-depth surveillance tracking domestic mandi spot rates, arrivals, international CNF/FOB markets, crop progress, and government interventions across 6 major pulse commodities.
+                        </p>
+
+                        <!-- 6 Pulse Commodities Grid -->
+                        <div class="pulses-commodity-grid">
+                            <div class="pulse-item-card">
+                                <strong>Chana</strong>
+                                <span>Bengal Gram</span>
+                            </div>
+                            <div class="pulse-item-card">
+                                <strong>Tur</strong>
+                                <span>Pigeon Pea</span>
+                            </div>
+                            <div class="pulse-item-card">
+                                <strong>Urad</strong>
+                                <span>Black Matpe</span>
+                            </div>
+                            <div class="pulse-item-card">
+                                <strong>Moong</strong>
+                                <span>Green Gram</span>
+                            </div>
+                            <div class="pulse-item-card">
+                                <strong>Masur</strong>
+                                <span>Lentil</span>
+                            </div>
+                            <div class="pulse-item-card">
+                                <strong>Pea</strong>
+                                <span>Yellow Pea</span>
+                            </div>
+                        </div>
+
+                        <!-- 4 Core Analytical Dimensions -->
+                        <div class="pulse-dimensions-row">
+                            <div class="dim-box">
+                                <h5><i class="fa-solid fa-store"></i> Domestic Market</h5>
+                                <p>Mandi rates, spot prices, WoW/MoM trends, arrival volumes, and inter-market spreads (Solapur, Akola, Delhi, Jaipur).</p>
+                            </div>
+                            <div class="dim-box">
+                                <h5><i class="fa-solid fa-globe"></i> International Trade</h5>
+                                <p>International CNF/FOB rates, origin-wise pricing (Myanmar, Canada, Australia, Tanzania), shipment windows, and port arrivals.</p>
+                            </div>
+                            <div class="dim-box">
+                                <h5><i class="fa-solid fa-cloud-sun-rain"></i> Crop & Weather</h5>
+                                <p>Kharif/Rabi sowing acreage vs benchmarks, crop conditions, rainfall deviations, and production estimates.</p>
+                            </div>
+                            <div class="dim-box">
+                                <h5><i class="fa-solid fa-landmark"></i> Fundamentals & Policy</h5>
+                                <p>Supply-demand balance sheets, import parity, MSP procurement, NAFED buffer stocks, and tariff structures.</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="project-desc">
-                        Engineered an automated data management workflow for daily market price feeds from the <strong>India Pulses and Grains Association (IPGA)</strong>. Built as a proactive organizational solution, the system normalizes heterogeneous input feeds into clean, validated CSV datasets ready for database ingestion and research reporting.
+
+                    <!-- SECONDARY / BACKUP COVERAGE: Tomato, Potato, Onion (Smaller Visual Treatment) -->
+                    <div class="secondary-coverage-box">
+                        <div class="secondary-grid">
+                            <div class="secondary-text">
+                                <div class="coverage-badge-secondary">
+                                    <i class="fa-solid fa-shield-halved"></i> Secondary / Backup Commodity Coverage
+                                </div>
+                                <h4>Additional Commodity Coverage — Tomato, Potato & Onion</h4>
+                                <p>
+                                    My primary research focus is pulses. I also provide backup commodity coverage for <strong>Tomato, Potato and Onion</strong>, supporting continuity of market monitoring and analysis when required.
+                                </p>
+                            </div>
+                            <div class="top-chips-row">
+                                <span class="top-chip"><i class="fa-solid fa-circle-dot"></i> Tomato</span>
+                                <span class="top-chip"><i class="fa-solid fa-circle-dot"></i> Potato</span>
+                                <span class="top-chip"><i class="fa-solid fa-circle-dot"></i> Onion</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================
+             5. SELECTED RESEARCH WORK (EVIDENCE OF CAPABILITY)
+             ======================================================== -->
+        <section id="research" style="background: var(--bg-card-alt);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-folder-open"></i> Portfolio Evidence</span>
+                    <h2 class="section-title">Selected Research Work</h2>
+                    <p class="section-desc">
+                        My commodity research work demonstrates my ability to collect, structure, analyse and interpret agricultural market information into actionable market intelligence.
+                    </p>
+                </div>
+
+                <!-- Main Showcase Card: Pulses Commodity Research -->
+                <div class="research-work-card">
+                    <div class="research-header">
+                        <div>
+                            <div class="research-eyebrow">COMMODITY RESEARCH · EVIDENCE OF ANALYTICAL DISCIPLINE</div>
+                            <h3 class="research-title">Pulses Commodity Research</h3>
+                        </div>
+                        <span class="cap-pill" style="color: var(--primary); background: var(--tag-bg); font-weight: 800;">
+                            <i class="fa-solid fa-check-circle"></i> Active Research Evidence
+                        </span>
+                    </div>
+
+                    <p class="research-desc">
+                        Analysed domestic and international pulse markets by combining price movements, crop conditions, sowing progress, imports, international prices, government interventions and supply-demand factors across <strong>Chana, Tur, Urad, Moong, Masur and Pea</strong>.
                     </p>
 
-                    <div class="project-details-grid">
-                        <div class="detail-box">
+                    <!-- 4 Output Cards -->
+                    <div class="research-outputs-grid">
+                        <div class="output-card">
+                            <h4><i class="fa-solid fa-calendar-day"></i> Pulses Daily Research</h4>
+                            <p>Daily tracking of spot mandi rates, arrival volumes, international C&F import prices, and price movements across 6 pulse commodities.</p>
+                        </div>
+                        <div class="output-card">
+                            <h4><i class="fa-solid fa-calendar-week"></i> Pulses Weekly Research</h4>
+                            <p>Weekly analytical updates evaluating WoW and MoM price volatility, Kharif/Rabi sowing progress, rainfall patterns, and market drivers.</p>
+                        </div>
+                        <div class="output-card">
+                            <h4><i class="fa-solid fa-earth-americas"></i> Domestic & Global Analysis</h4>
+                            <p>Origin-wise monitoring (Myanmar, Canada, Australia, Russia) and domestic spot comparisons to identify landed parity differentials.</p>
+                        </div>
+                        <div class="output-card">
+                            <h4><i class="fa-solid fa-table-columns"></i> Commodity Data Analysis</h4>
+                            <p>Automated data structuring and modeling workflows in Excel to clean, validate, and convert fragmented market feeds into structured datasets.</p>
+                        </div>
+                    </div>
+
+                    <!-- Secondary Coverage Note -->
+                    <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px 18px; font-size: 0.88rem; color: var(--text-muted);">
+                        <strong style="color: var(--text-main);"><i class="fa-solid fa-info-circle" style="color: var(--accent-gold);"></i> Additional Commodity Coverage Note:</strong>
+                        Backup research support for Tomato, Potato, and Onion to maintain continuous price tracking, market updates, and supply-demand observations.
+                    </div>
+                </div>
+
+                <!-- Proactive Initiative: IPGA Daily Price CSV Conversion Sheet -->
+                <div class="research-work-card">
+                    <div class="research-header">
+                        <div>
+                            <div class="research-eyebrow">PROACTIVE ORGANIZATIONAL INITIATIVE · DATA PIPELINE AUTOMATION</div>
+                            <h3 class="research-title">IPGA Daily Price CSV Conversion Workflow</h3>
+                        </div>
+                        <span class="cap-pill" style="color: var(--accent-purple); background: var(--accent-purple-bg); font-weight: 800;">
+                            <i class="fa-solid fa-gears"></i> Excel / VBA / Data Engineering
+                        </span>
+                    </div>
+
+                    <p class="research-desc">
+                        Engineered an automated data management workflow for daily market price feeds from the <strong>India Pulses and Grains Association (IPGA)</strong>. Built proactively beyond core daily duties, the system standardizes heterogeneous raw feeds into clean, database-ready CSV datasets.
+                    </p>
+
+                    <div class="research-outputs-grid" style="grid-template-columns: repeat(3, 1fr);">
+                        <div class="output-card">
                             <h4>The Problem</h4>
-                            <p>Raw IPGA feeds contained inconsistent regional mandi spellings (e.g. Gulbarga vs Kalaburagi), mixed trade units (Rs/20kg, 50kg bags, trucks, $/MT), and non-standard variety names.</p>
+                            <p>Raw feeds contained unstandardized mandi spellings (e.g. Gulbarga vs Kalaburagi), mixed trade units (Rs/20kg, 50kg bags, $/MT, Kyats), and varying nomenclatures.</p>
                         </div>
-                        <div class="detail-box">
+                        <div class="output-card">
                             <h4>The Solution</h4>
-                            <p>Built an entity mapping matrix and VBA macro validation engine that automatically converts unit weights to standard quintals/tonnes and standardizes location/variety names.</p>
+                            <p>Developed an automated Excel conversion sheet utilizing VBA macros, entity mapping matrices, and validation rules to normalize units and standardize varieties.</p>
                         </div>
-                        <div class="detail-box">
+                        <div class="output-card">
                             <h4>The Outcome</h4>
-                            <p>Reduced daily report preparation time, eliminated entity duplication errors, and output standardized CSV tables for Spot Rates, Arrivals, and C&F Prices.</p>
+                            <p>Eliminated manual formatting delays, prevented entity duplication, and produced clean daily CSV exports for Domestic Spot Rates, Arrivals, and C&F Prices.</p>
                         </div>
-                    </div>
-
-                    <div class="project-tags">
-                        <span class="tag">IPGA Feeds</span>
-                        <span class="tag">Excel VBA Macros</span>
-                        <span class="tag">Entity Normalization</span>
-                        <span class="tag">Validation Engine</span>
-                        <span class="tag">Database CSV Output</span>
-                    </div>
-                </div>
-
-                <!-- Project 02: Advanced Research MIS System -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div>
-                            <span class="proactive-badge"><i class="fa-solid fa-star"></i> Proactive Full-Stack System</span>
-                            <div class="project-num">PROJECT 02 · FULL-STACK MIS PLATFORM</div>
-                            <h3 class="project-title">Advanced Research Team MIS System (http://168.144.28.192/)</h3>
-                        </div>
-                        <span class="tag" style="color: var(--accent-purple);"><i class="fa-solid fa-server"></i> Live Systems Development</span>
-                    </div>
-                    <p class="project-desc">
-                        Designed, developed, and deployed a live Management Information System (MIS) hosted at <a href="http://168.144.28.192/" target="_blank" style="color: var(--accent-purple); text-decoration: underline; font-weight:700;">http://168.144.28.192/</a> tailored for research team management, task tracking, PDF report analysis, and multi-analyst roster coordination.
-                    </p>
-
-                    <div class="project-details-grid">
-                        <div class="detail-box">
-                            <h4>Agile Task & Kanban Board</h4>
-                            <p>Implemented an interactive task board to organize daily commodity surveillance assignments, weekly report compilation, and research deadlines.</p>
-                        </div>
-                        <div class="detail-box">
-                            <h4>PDF Report Analyzer</h4>
-                            <p>Integrated PDF.js in-browser parsing for quick review and text extraction from commodity research reports and government policy releases.</p>
-                        </div>
-                        <div class="detail-box">
-                            <h4>Team Hub & Communication</h4>
-                            <p>Features Socket.IO real-time team messaging, roster schedule management, notification alerts, and role-based admin controls.</p>
-                        </div>
-                    </div>
-
-                    <div class="project-tags">
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Socket.IO</span>
-                        <span class="tag">PDF.js Parser</span>
-                        <span class="tag">Kanban Task Board</span>
-                        <span class="tag">Roster Hub</span>
-                        <span class="tag">Live at 168.144.28.192</span>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <!-- Strengths I Bring Section -->
-        <section id="strengths" style="background: var(--bg-card-alt);">
+        <!-- ========================================================
+             6. ANALYTICAL APPROACH / DATA & VISUALISATION (POWER BI)
+             ======================================================== -->
+        <section id="data-systems">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-chart-pie"></i> Visual Analytics</span>
+                    <h2 class="section-title">Data & Visualisation</h2>
+                    <p class="section-desc">
+                        Using analytical tools to solve agricultural and commodity research problems — transforming price feeds, trade data, and crop metrics into visual intelligence.
+                    </p>
+                </div>
+
+                <!-- Power BI Showcase Card -->
+                <div class="research-work-card">
+                    <div class="research-header">
+                        <div>
+                            <div class="research-eyebrow">COMMODITY INTELLIGENCE DASHBOARD</div>
+                            <h3 class="research-title">Pulses Market Intelligence Dashboard</h3>
+                        </div>
+                        <span class="cap-pill" style="color: var(--accent-gold); background: var(--accent-gold-bg); font-weight: 800;">
+                            <i class="fa-solid fa-chart-simple"></i> Power BI · Excel · Power Query
+                        </span>
+                    </div>
+
+                    <p class="research-desc">
+                        Designed and built an interactive Power BI intelligence dashboard to transform fragmented agricultural price feeds, crop statistics, and trade flows into clear, executive decision-support views.
+                    </p>
+
+                    <!-- Contribution Pipeline -->
+                    <div style="margin-bottom: 12px; font-size: 0.84rem; font-weight: 800; text-transform: uppercase; color: var(--primary); letter-spacing: 0.06em;">
+                        <i class="fa-solid fa-code-branch"></i> End-to-End Analytical Contribution:
+                    </div>
+                    <div class="pipeline-flow">
+                        <div class="pipeline-step"><span class="pipeline-step-num">1</span> Data Preparation</div>
+                        <i class="fa-solid fa-chevron-right pipeline-arrow"></i>
+                        <div class="pipeline-step"><span class="pipeline-step-num">2</span> Transformation (Power Query)</div>
+                        <i class="fa-solid fa-chevron-right pipeline-arrow"></i>
+                        <div class="pipeline-step"><span class="pipeline-step-num">3</span> Statistical Analysis</div>
+                        <i class="fa-solid fa-chevron-right pipeline-arrow"></i>
+                        <div class="pipeline-step"><span class="pipeline-step-num">4</span> Power BI Visualisation</div>
+                        <i class="fa-solid fa-chevron-right pipeline-arrow"></i>
+                        <div class="pipeline-step"><span class="pipeline-step-num">5</span> Market Interpretation</div>
+                    </div>
+
+                    <!-- What It Analyses -->
+                    <div style="margin-bottom: 10px; font-size: 0.84rem; font-weight: 800; text-transform: uppercase; color: var(--text-dim); letter-spacing: 0.06em;">
+                        What The Dashboard Analyses:
+                    </div>
+                    <div class="dashboard-metrics-grid">
+                        <div class="d-metric">
+                            <strong>Domestic Prices</strong>
+                            <span>Spot rates across major national mandis</span>
+                        </div>
+                        <div class="d-metric">
+                            <strong>International Prices</strong>
+                            <span>CNF & FOB rate trends across origins</span>
+                        </div>
+                        <div class="d-metric">
+                            <strong>Import Markets</strong>
+                            <span>Port arrivals, origin shares & tariffs</span>
+                        </div>
+                        <div class="d-metric">
+                            <strong>Commodity Comparison</strong>
+                            <span>Cross-commodity spread & substitution</span>
+                        </div>
+                        <div class="d-metric">
+                            <strong>Price Trends</strong>
+                            <span>Historical movements & seasonality</span>
+                        </div>
+                        <div class="d-metric">
+                            <strong>Market Movements</strong>
+                            <span>WoW/MoM change & volatility bands</span>
+                        </div>
+                        <div class="d-metric">
+                            <strong>Crop Indicators</strong>
+                            <span>Sowing acreage vs target benchmarks</span>
+                        </div>
+                        <div class="d-metric">
+                            <strong>Policy Impact</strong>
+                            <span>MSP differentials & buffer stock cues</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live MIS System Card -->
+                <div class="research-work-card">
+                    <div class="research-header">
+                        <div>
+                            <div class="research-eyebrow">FULL-STACK PLATFORM · LIVE DEPLOYMENT</div>
+                            <h3 class="research-title">Advanced Research Team MIS System</h3>
+                        </div>
+                        <a href="http://168.144.28.192/" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.82rem; padding: 6px 14px;">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live at 168.144.28.192
+                        </a>
+                    </div>
+
+                    <p class="research-desc">
+                        Designed, engineered, and deployed a live Management Information System (MIS) hosted at <a href="http://168.144.28.192/" target="_blank" rel="noopener" style="color: var(--primary); font-weight: 700; text-decoration: underline;">http://168.144.28.192/</a> tailored for commodity research team operations, task tracking, PDF report analysis, and analyst roster coordination.
+                    </p>
+
+                    <div class="research-outputs-grid" style="grid-template-columns: repeat(3, 1fr);">
+                        <div class="output-card">
+                            <h4>Agile Task & Kanban Board</h4>
+                            <p>Organizes daily commodity surveillance tasks, weekly report compilation workflows, and research deadlines in real time.</p>
+                        </div>
+                        <div class="output-card">
+                            <h4>PDF Report Parser</h4>
+                            <p>Integrated PDF.js in-browser parsing for rapid text extraction and review from commodity market research reports and government releases.</p>
+                        </div>
+                        <div class="output-card">
+                            <h4>Roster Hub & Notifications</h4>
+                            <p>Features Socket.IO real-time team messaging, shift roster scheduling, notification alerts, and role-based administration.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========================================================
+             7. PROFESSIONAL EXPERIENCE
+             ======================================================== -->
+        <section id="experience" style="background: var(--bg-card-alt);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Work History</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-desc">
+                        A progressive career path built by combining commodity research, agricultural field advisory, agribusiness marketing, and data-driven market intelligence.
+                    </p>
+                </div>
+
+                <div class="experience-timeline">
+                    
+                    <!-- 1. Agnomics Analytics Lab (agAlabs) -->
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <span class="exp-date">01/2026 – Present · Full-Time</span>
+                            <h3 class="exp-role">Junior Research Analyst</h3>
+                            <div class="exp-company">
+                                <i class="fa-solid fa-building"></i> Agnomics Analytics Lab (agAlabs) · Jabalpur, MP
+                            </div>
+                        </div>
+
+                        <ul class="exp-bullets">
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Conduct commodity research and market intelligence with a primary focus on major pulses across Indian and international markets.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Track domestic mandi and spot prices, international CNF/FOB and spot prices, imported market prices and other commodity indicators.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Analyse price movements, WoW/MoM trends, arrivals, imports, sowing progress, crop conditions, weather developments and supply-demand factors.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Monitor government policies, procurement, buffer stocks and other developments that influence commodity market fundamentals.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Develop daily and weekly commodity research outputs by combining quantitative market data with relevant agricultural and market developments.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Work with commodity datasets and analytical workflows using Excel and related data tools to structure, refine and interpret market information.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Provide secondary/backup commodity coverage for Tomato, Potato and Onion when required, supporting continuity of market monitoring and research analysis.</span>
+                            </li>
+                        </ul>
+
+                        <!-- Core Research Publications Box -->
+                        <div class="publication-badge-box">
+                            <div class="pub-item">
+                                <strong><i class="fa-solid fa-calendar-day" style="color: var(--primary);"></i> Pulses Daily Digest (Daily Task)</strong>
+                                <span>Daily market surveillance tracking mandi spot rates, arrivals, and international C&F import prices across 6 pulse commodities.</span>
+                            </div>
+                            <div class="pub-item">
+                                <strong><i class="fa-solid fa-calendar-week" style="color: var(--accent-gold);"></i> Pulses Weekly Update (Every Monday)</strong>
+                                <span>Weekly comprehensive analytical updates evaluating WoW/MoM price volatility, sowing progress, weather, and market fundamentals.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Insecticides India Ltd. (Field Advisory) -->
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <span class="exp-date">05/2025 – 12/2025 · Professional Field Role</span>
+                            <h3 class="exp-role">Crop Advisor — Agricultural Field Experience</h3>
+                            <div class="exp-company">
+                                <i class="fa-solid fa-building"></i> Insecticides India Ltd.
+                            </div>
+                        </div>
+
+                        <ul class="exp-bullets">
+                            <li>
+                                <i class="fa-solid fa-seedling"></i>
+                                <span><strong>Farmer Advisory & Interaction:</strong> Provided ground-level agronomic guidance and crop protection advisory directly to farmers in field settings.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-network-wired"></i>
+                                <span><strong>Retailer & Distributor Engagement:</strong> Managed relationships and intelligence channels across agrochemical dealers and input distribution networks.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-eye"></i>
+                                <span><strong>Field Observations:</strong> Assessed real-time crop growth stages, pest/disease incidence, and farmer sentiment regarding crop harvest and market arrivals.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-bullseye"></i>
+                                <span><strong>Agricultural Market Understanding:</strong> Developed ground-truth market intuition connecting field observations to broader commodity price dynamics.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 3. Syngenta India (Marketing Internship) -->
+                    <div class="exp-item">
+                        <div class="exp-header">
+                            <span class="exp-date">11/2024 – 01/2025 · Agribusiness Internship</span>
+                            <h3 class="exp-role">Marketing Intern</h3>
+                            <div class="exp-company">
+                                <i class="fa-solid fa-building"></i> Syngenta India
+                            </div>
+                        </div>
+
+                        <ul class="exp-bullets">
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                <span><strong>Agricultural Marketing:</strong> Conducted agribusiness market analysis and competitor landscape assessments for key crop input categories.</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-comments"></i>
+                                <span><strong>Market Research & Farmer Feedback:</strong> Gathered structured qualitative and quantitative insights on farmer product adoption, crop challenges, and pricing perceptions.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================
+             8. EDUCATION + ACADEMIC JOURNEY
+             ======================================================== -->
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Track</span>
+                    <h2 class="section-title">Education & Academic Journey</h2>
+                    <p class="section-desc">
+                        A rigorous academic track combining agricultural science with agribusiness management, commodity economics, and applied research analytics.
+                    </p>
+                </div>
+
+                <div class="education-grid">
+                    <!-- MBA Degree -->
+                    <div class="edu-card">
+                        <div class="edu-year">2023 – 2025 · Post Graduation</div>
+                        <h3 class="edu-degree">MBA in Agri-Business Management</h3>
+                        <p class="edu-inst">Jawaharlal Nehru Krishi Vishwavidyalaya (JNKVV), Jabalpur</p>
+                        <div class="edu-topics">
+                            <span class="edu-topic">Agribusiness</span>
+                            <span class="edu-topic">Commodity Trading</span>
+                            <span class="edu-topic">Supply Chain Management</span>
+                            <span class="edu-topic">Agricultural Economics</span>
+                            <span class="edu-topic">Agricultural Policy</span>
+                            <span class="edu-topic">Marketing Management</span>
+                        </div>
+                    </div>
+
+                    <!-- B.Sc. Degree -->
+                    <div class="edu-card">
+                        <div class="edu-year">2017 – 2021 · Graduation</div>
+                        <h3 class="edu-degree">B.Sc. (Hons.) Agriculture</h3>
+                        <p class="edu-inst">AKS University, Satna</p>
+                        <div class="edu-topics">
+                            <span class="edu-topic">Agronomy</span>
+                            <span class="edu-topic">Crop Physiology</span>
+                            <span class="edu-topic">Agricultural Economics</span>
+                            <span class="edu-topic">Plant Protection</span>
+                            <span class="edu-topic">Soil Science</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Transition Note (BHU to MBA) -->
+                <div class="bhu-transition-card">
+                    <h4><i class="fa-solid fa-compass"></i> Academic Transition — Agroforestry at Banaras Hindu University (BHU)</h4>
+                    <p>
+                        Earlier, I pursued Agroforestry at <strong>Banaras Hindu University (BHU)</strong>, before transitioning to an <strong>MBA in Agri-Business Management</strong> to align my academic path with my growing interest in agricultural markets, commodities, business and applied research.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================
+             9. WHY MY PROFILE (8 KEY DIFFERENTIATORS)
+             ======================================================== -->
+        <section id="why-me" style="background: var(--bg-card-alt);">
             <div class="container">
                 <div class="section-header">
                     <span class="section-tag"><i class="fa-solid fa-star"></i> Candidate Strengths</span>
-                    <h2 class="section-title">Strengths I Bring To Your Organization</h2>
-                    <p class="section-desc">
-                        A combination of domain knowledge, analytical discipline, technical data capability, and practical agricultural exposure.
+                    <h2 class="section-title">Why My Profile?</h2>
+                    <p class="section-desc" style="font-weight: 700; color: var(--primary);">
+                        Agriculture + Agribusiness + Commodity Research + Market Intelligence + Data Analytics
                     </p>
                 </div>
 
-                <div class="strengths-grid">
-                    <div class="strength-card">
-                        <h3><i class="fa-solid fa-seedling"></i> Agriculture Domain Knowledge</h3>
-                        <p>Strong foundation in crop science, agricultural production systems, sowing cycles, and agribusiness market dynamics.</p>
+                <div class="why-grid">
+                    <div class="why-card">
+                        <div class="why-num">01 · DOMAIN</div>
+                        <h3 class="why-title">Agriculture Domain Knowledge</h3>
+                        <p class="why-desc">Strong academic foundation in agriculture, crop science, and agricultural production systems.</p>
                     </div>
 
-                    <div class="strength-card">
-                        <h3><i class="fa-solid fa-chart-line"></i> Commodity Thinking</h3>
-                        <p>Ability to connect weather risks, production estimates, mandi arrivals, international trade flows, and government policy with price behaviour.</p>
+                    <div class="why-card">
+                        <div class="why-num">02 · THINKING</div>
+                        <h3 class="why-title">Commodity Thinking</h3>
+                        <p class="why-desc">Ability to connect production, supply, demand, trade, weather and policy with commodity price behaviour.</p>
                     </div>
 
-                    <div class="strength-card">
-                        <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Research Discipline</h3>
-                        <p>Comfortable analyzing complex information, checking data integrity across origins, and synthesizing structured analytical conclusions.</p>
+                    <div class="why-card">
+                        <div class="why-num">03 · RESEARCH</div>
+                        <h3 class="why-title">Pulse Market Research</h3>
+                        <p class="why-desc">Primary research experience across Chana, Tur, Urad, Moong, Masur and Pea in domestic and global markets.</p>
                     </div>
 
-                    <div class="strength-card">
-                        <h3><i class="fa-solid fa-database"></i> Data & Technical Orientation</h3>
-                        <p>Hands-on experience with SQL database querying, Excel VBA automation, Power BI dashboards, Power Query workflows, Python scripting, and full-stack MIS development.</p>
+                    <div class="why-card">
+                        <div class="why-num">04 · INTELLIGENCE</div>
+                        <h3 class="why-title">Market Intelligence</h3>
+                        <p class="why-desc">Hands-on experience monitoring domestic mandi spot rates, imported markets, and international CNF/FOB prices.</p>
                     </div>
 
-                    <div class="strength-card">
-                        <h3><i class="fa-solid fa-users-viewfinder"></i> Field-Level Understanding</h3>
-                        <p>Direct exposure interacting with farmers, distributors, and retailers during field advisory roles provides practical context to market data.</p>
+                    <div class="why-card">
+                        <div class="why-num">05 · DATA</div>
+                        <h3 class="why-title">Data Orientation</h3>
+                        <p class="why-desc">Ability to structure, clean, analyse and visualise agricultural and commodity datasets using modern tools.</p>
                     </div>
 
-                    <div class="strength-card">
-                        <h3><i class="fa-solid fa-briefcase"></i> Commercial Perspective</h3>
-                        <p>MBA in Agri-Business Management developed my understanding of agribusiness supply chains, trade economics, and strategic decision support.</p>
+                    <div class="why-card">
+                        <div class="why-num">06 · GROUND TRUTH</div>
+                        <h3 class="why-title">Field Understanding</h3>
+                        <p class="why-desc">Direct experience interacting with farmers, retailers, and distributors in agricultural input ecosystems.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-num">07 · BUSINESS</div>
+                        <h3 class="why-title">Business Perspective</h3>
+                        <p class="why-desc">MBA Agri-Business Management with exposure to commodity trading, supply chain, economics and policy.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-num">08 · FLEXIBILITY</div>
+                        <h3 class="why-title">Research Flexibility</h3>
+                        <p class="why-desc">Ability to provide backup coverage across additional commodities such as Tomato, Potato and Onion when required.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience & Education Section -->
-        <section id="experience">
+        <!-- ========================================================
+             10. TOOLS & SKILLS
+             ======================================================== -->
+        <section id="tools">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag"><i class="fa-solid fa-user-tie"></i> Background & Education</span>
-                    <h2 class="section-title">Career Experience & Academic Track</h2>
+                    <span class="section-tag"><i class="fa-solid fa-screwdriver-wrench"></i> Technical Stack</span>
+                    <h2 class="section-title">Tools & Technical Skills</h2>
                     <p class="section-desc">
-                        A progressive career path built by combining agricultural science, field advisory, agribusiness management, and commodity research.
+                        Using analytical tools to solve agricultural and commodity research problems — modeling, pipeline engineering, and interactive visualization.
                     </p>
                 </div>
 
-                <div class="timeline-grid">
-                    <!-- Left: Work Experience -->
-                    <div>
-                        <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
-                            <i class="fa-solid fa-building-user" style="color: var(--primary);"></i> Professional Experience
-                        </h3>
-
-                        <div class="timeline-track">
-                            <div class="timeline-item">
-                                <div class="timeline-date">01/2026 – Present</div>
-                                <div class="timeline-role">Junior Research Analyst</div>
-                                <div class="timeline-company">Agnomics Analytics Lab (agAlabs)</div>
-                                <div class="timeline-desc">
-                                    Specializing in pulse commodity research across Indian and global origins. Responsible for daily market surveillance and compiling core commodity research reports.
-                                    
-                                    <ul class="impact-list">
-                                        <li><i class="fa-solid fa-calendar-day"></i> <span><strong>Pulses Daily Digest (Daily Task):</strong> Author daily commodity research digests tracking domestic mandi spot rates, arrival volumes, international C&F import prices, and price movements across Chana, Tur, Urad, Moong, Masur, and Yellow Pea.</span></li>
-                                        <li><i class="fa-solid fa-calendar-week"></i> <span><strong>Pulses Weekly Update (Every Monday):</strong> Compile comprehensive Monday weekly analytical updates evaluating WoW and MoM price trends, Kharif/Rabi sowing progress, rainfall patterns, and supply-demand fundamentals.</span></li>
-                                        <li><i class="fa-solid fa-check-double"></i> <span><strong>Market Intelligence & News Articles:</strong> Conducted comprehensive analysis of pulse commodities in both Indian and international markets, authoring market updates and news digests to track key price drivers.</span></li>
-                                        <li><i class="fa-solid fa-check-double"></i> <span><strong>Excel Modeling & Data Management:</strong> Leveraged expertise in Excel data modeling, quantitative price analytics, and agricultural research to support data-driven decision-making and optimize data management practices.</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-date">05/2025 – 12/2025</div>
-                                <div class="timeline-role">Crop Advisor</div>
-                                <div class="timeline-company">Insecticides India Ltd.</div>
-                                <div class="timeline-desc">
-                                    Gained hands-on agricultural field exposure, providing agronomic advisory to farmers and managing retailer/distributor channel networks.
-                                </div>
-                            </div>
-
-                            <div class="timeline-item">
-                                <div class="timeline-date">11/2024 – 01/2025</div>
-                                <div class="timeline-role">Marketing Intern</div>
-                                <div class="timeline-company">Syngenta India</div>
-                                <div class="timeline-desc">
-                                    Conducted agricultural market research, competitor landscape mapping, product intelligence, and farmer feedback assessments.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Right: Education & Academic Path -->
-                    <div>
-                        <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
-                            <i class="fa-solid fa-graduation-cap" style="color: var(--primary);"></i> Academic Foundation
-                        </h3>
-
-                        <div class="edu-card">
-                            <div class="timeline-date">2023 – 2025</div>
-                            <h3>MBA — Agri-Business Management</h3>
-                            <p>Jawaharlal Nehru Krishi Vishwavidyalaya (JNKVV), Jabalpur</p>
-                        </div>
-
-                        <div class="edu-card">
-                            <div class="timeline-date">2017 – 2021</div>
-                            <h3>B.Sc. Agriculture</h3>
-                            <p>AKS University, Satna</p>
-                        </div>
-
-                        <div class="bhu-note">
-                            <h4><i class="fa-solid fa-compass"></i> Academic Journey — Agroforestry at BHU</h4>
-                            <p>
-                                I also pursued <strong>Agroforestry at Banaras Hindu University (BHU)</strong>. I chose to discontinue that programme and pursue an MBA in Agri-Business Management to move closer to my core interest in agricultural markets, commodities, business decision support, and applied research analytics.
-                            </p>
-                        </div>
-
-                        <h3 style="font-size: 1.2rem; font-weight: 800; margin: 32px 0 16px;">Tools & Technical Skills</h3>
-                        <div class="skills-grid">
-                            <div class="skill-pill"><i class="fa-solid fa-database"></i> SQL Querying</div>
-                            <div class="skill-pill"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</div>
-                            <div class="skill-pill"><i class="fa-solid fa-chart-simple"></i> Power BI</div>
-                            <div class="skill-pill"><i class="fa-solid fa-database"></i> Power Query</div>
-                            <div class="skill-pill"><i class="fa-solid fa-code"></i> Excel VBA Macros</div>
-                            <div class="skill-pill"><i class="fa-brands fa-python"></i> Python Data Analysis</div>
-                            <div class="skill-pill"><i class="fa-solid fa-square-poll-vertical"></i> R Scripting</div>
-                            <div class="skill-pill"><i class="fa-solid fa-table"></i> IPGA CSV Pipelines</div>
-                            <div class="skill-pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Prompt Engineering</div>
-                            <div class="skill-pill"><i class="fa-solid fa-wheat-awn"></i> Pulses Commodity Research</div>
-                        </div>
-                    </div>
+                <div class="tools-grid">
+                    <div class="tool-pill"><i class="fa-solid fa-file-excel"></i> Microsoft Excel (Advanced Modeling)</div>
+                    <div class="tool-pill"><i class="fa-solid fa-chart-simple"></i> Power BI</div>
+                    <div class="tool-pill"><i class="fa-solid fa-database"></i> Power Query (ETL)</div>
+                    <div class="tool-pill"><i class="fa-solid fa-code"></i> Excel VBA Macros</div>
+                    <div class="tool-pill"><i class="fa-brands fa-python"></i> Python (Data Analysis)</div>
+                    <div class="tool-pill"><i class="fa-solid fa-square-poll-vertical"></i> R Scripting</div>
+                    <div class="tool-pill"><i class="fa-solid fa-chart-pie"></i> Data Visualisation</div>
+                    <div class="tool-pill"><i class="fa-solid fa-broom"></i> Data Cleaning & Structuring</div>
+                    <div class="tool-pill"><i class="fa-solid fa-table"></i> Commodity Data Analysis</div>
+                    <div class="tool-pill"><i class="fa-solid fa-magnifying-glass-chart"></i> Market Intelligence & Research</div>
+                    <div class="tool-pill"><i class="fa-solid fa-arrow-trend-up"></i> Price Trend Forecasting</div>
+                    <div class="tool-pill"><i class="fa-solid fa-wheat-awn"></i> Agribusiness Analysis</div>
                 </div>
             </div>
         </section>
 
-        <!-- Recruiter Contact Section -->
+        <!-- ========================================================
+             11. CAREER INTERESTS
+             ======================================================== -->
+        <section id="interests" style="background: var(--bg-card-alt);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag"><i class="fa-solid fa-bullseye"></i> Recruiter Alignment</span>
+                    <h2 class="section-title">Career Interests & Target Roles</h2>
+                    <p class="section-desc">
+                        Interested in opportunities where agricultural domain knowledge, commodity research and data analytics can be combined to solve real market and business problems.
+                    </p>
+                </div>
+
+                <div class="interests-grid">
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Commodity Research Analyst</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Agricultural Research Analyst</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Market Intelligence Analyst</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Commodity Analyst</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Agribusiness Analyst</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Agricultural Data Analyst</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Research Associate — Agriculture</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Agri Market Intelligence Analyst</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Commodity Market Research</span>
+                    <span class="interest-badge"><i class="fa-solid fa-circle-check"></i> Agricultural Business Research</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================
+             12. CONTACT & RECRUITER OUTREACH
+             ======================================================== -->
         <section id="contact">
             <div class="container">
-                <div class="contact-card">
-                    <span class="section-tag"><i class="fa-solid fa-handshake"></i> Recruiter Outreach</span>
-                    <h2>Looking to contribute to research, commodity markets & agribusiness teams.</h2>
+                <div class="contact-box">
+                    <span class="section-tag"><i class="fa-solid fa-handshake"></i> Get In Touch</span>
+                    <h2>Let's Discuss Agriculture, Commodities & Market Intelligence</h2>
                     <p>
-                        I am interested in opportunities where agricultural domain knowledge, IPGA data engineering, commodity research discipline, and technical analytics can solve real business and market questions.
+                        I am open to discussions regarding commodity research, agricultural market intelligence, and agribusiness analytics opportunities. Feel free to reach out directly or download my resume.
                     </p>
                     
                     <div class="contact-buttons">
-                        <a href="mailto:vnishant41@gmail.com" class="btn btn-primary">
+                        <a href="mailto:vnishant41@gmail.com" class="btn btn-primary" id="contactEmailBtn">
                             <i class="fa-solid fa-envelope"></i> vnishant41@gmail.com
                         </a>
+                        <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-gold" id="contactCvBtn">
+                            <i class="fa-solid fa-file-arrow-down"></i> Download Resume ↓
+                        </a>
                         <a href="https://www.linkedin.com/in/nishant-vishwakarma-/" target="_blank" rel="noopener" class="btn btn-outline">
-                            <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+                            <i class="fa-brands fa-linkedin" style="color: #0077b5;"></i> LinkedIn Profile
                         </a>
                         <a href="https://github.com/vnishant41" target="_blank" rel="noopener" class="btn btn-outline">
                             <i class="fa-brands fa-github"></i> GitHub Profile
                         </a>
                         <a href="http://168.144.28.192/" target="_blank" rel="noopener" class="btn btn-outline">
-                            <i class="fa-solid fa-external-link"></i> Live MIS Application
-                        </a>
-                        <a href="assets/Nishant_Vishwakarma_CV.pdf" download class="btn btn-outline">
-                            <i class="fa-solid fa-file-pdf"></i> Download Resume
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live MIS Platform
                         </a>
                     </div>
                 </div>
@@ -673,21 +1276,45 @@
     <footer>
         <div class="container footer-inner">
             <span>© 2026 Nishant Vishwakarma. Professional Recruiter Portfolio.</span>
-            <span>GitHub Pages: <a href="https://vnishant41.github.io" style="color: var(--primary);">vnishant41.github.io</a></span>
+            <span>GitHub Pages: <a href="https://vnishant41.github.io" style="color: var(--primary); font-weight: 700;">vnishant41.github.io</a></span>
         </div>
     </footer>
 
-    <!-- Interactivity Script -->
+    <!-- Theme Toggle & Smooth Interaction Script -->
     <script>
-        // Theme Switcher (Default: Light Theme)
         const themeToggleBtn = document.getElementById('themeToggle');
         const htmlElement = document.documentElement;
-        
+
+        // Theme Toggle Handler
         themeToggleBtn.addEventListener('click', () => {
             const currentTheme = htmlElement.getAttribute('data-theme');
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
             htmlElement.setAttribute('data-theme', newTheme);
-            themeToggleBtn.innerHTML = newTheme === 'light' ? '<i class="fa-solid fa-moon"></i>' : '<i class="fa-solid fa-sun"></i>';
+            themeToggleBtn.innerHTML = newTheme === 'light' 
+                ? '<i class="fa-solid fa-moon"></i>' 
+                : '<i class="fa-solid fa-sun" style="color: #f59e0b;"></i>';
+            themeToggleBtn.setAttribute('title', newTheme === 'light' ? 'Switch to Dark Theme' : 'Switch to Light Theme');
+        });
+
+        // Active Navigation Scroll Highlighting
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 120;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
         });
     </script>
 </body>
